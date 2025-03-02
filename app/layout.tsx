@@ -1,4 +1,3 @@
-// app/layout.tsx
 import type { Metadata } from 'next'
 import { cookies } from 'next/headers'
 import { ThemeProvider } from '@/components/theme-provider'
@@ -10,11 +9,11 @@ export const metadata: Metadata = {
 }
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  // Read cookies from the request
+  // Read cookies from the request.
   const cookieStore = await cookies()
-  // Default to 'light' if no theme is set
+  // Default to 'light' if no theme is set.
   const theme = cookieStore.get('theme')?.value || 'light'
-  // Read the locale cookie; default to English ('en') if none exists
+  // Read the locale cookie; default to English ('en') if none exists.
   const locale = cookieStore.get('locale')?.value || 'en'
 
   return (
@@ -24,7 +23,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <ThemeProvider
           attribute="class"
           defaultTheme={theme}
-          enableSystem
+          // Disable system theme detection for consistency.
+          enableSystem={false}
           disableTransitionOnChange
         >
           {children}

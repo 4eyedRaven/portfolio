@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -127,9 +127,21 @@ function MobileNav({ locale }: { locale: any }) {
 }
 
 export default function Home() {
+  // Default language state set to "en"
   const [lang, setLang] = useState("en");
 
-  // Select active locale based on language state.
+  // On mount, read the locale cookie and update the state if necessary.
+  useEffect(() => {
+    const cookieValue = document.cookie
+      .split("; ")
+      .find((row) => row.startsWith("locale="))
+      ?.split("=")[1];
+    if (cookieValue && cookieValue !== lang) {
+      setLang(cookieValue);
+    }
+  }, [lang]);
+
+  // Select active locale based on the language state.
   const locale =
     lang === "de" ? de :
     lang === "es" ? es :

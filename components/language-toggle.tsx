@@ -1,10 +1,12 @@
+// components/language-toggle.tsx
 "use client";
+import Cookies from "js-cookie";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuTrigger,
   DropdownMenuContent,
-  DropdownMenuItem
+  DropdownMenuItem,
 } from "@/components/ui/dropdown-menu";
 import { Globe } from "lucide-react";
 
@@ -14,6 +16,12 @@ interface LanguageToggleProps {
 }
 
 export function LanguageToggle({ lang, setLang }: LanguageToggleProps) {
+  const handleLanguageChange = (newLang: string) => {
+    // Persist the selected locale in a cookie for 1 year
+    Cookies.set("locale", newLang, { expires: 365, path: "/" });
+    setLang(newLang);
+  };
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
@@ -22,11 +30,21 @@ export function LanguageToggle({ lang, setLang }: LanguageToggleProps) {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        <DropdownMenuItem onSelect={() => setLang("en")}>English</DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => setLang("de")}>Deutsch</DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => setLang("es")}>Español</DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => setLang("it")}>Italiano</DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => setLang("fr")}>Français</DropdownMenuItem>
+        <DropdownMenuItem onSelect={() => handleLanguageChange("en")}>
+          English
+        </DropdownMenuItem>
+        <DropdownMenuItem onSelect={() => handleLanguageChange("de")}>
+          Deutsch
+        </DropdownMenuItem>
+        <DropdownMenuItem onSelect={() => handleLanguageChange("es")}>
+          Español
+        </DropdownMenuItem>
+        <DropdownMenuItem onSelect={() => handleLanguageChange("it")}>
+          Italiano
+        </DropdownMenuItem>
+        <DropdownMenuItem onSelect={() => handleLanguageChange("fr")}>
+          Français
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );
