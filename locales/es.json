@@ -1,0 +1,234 @@
+{
+    "header": {
+      "title": "Josh Loughran",
+      "nav": {
+        "about": "Acerca de",
+        "experience": "Experiencia",
+        "education": "Educación",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+      }
+    },
+    "hero": {
+      "title": "Experto Senior en UX y Ingeniero de Software",
+      "subtitle": "Integrando IA, modelos de lenguaje y diseño centrado en el usuario en soluciones de ingeniería intuitivas",
+      "badges": {
+        "ai": "IA & Aprendizaje Automático",
+        "ux": "Diseño UX",
+        "web": "Desarrollo Web",
+        "software": "Ingeniería de Software"
+      },
+      "buttons": {
+        "contact": "Contáctame",
+        "experience": "Ver experiencia"
+      },
+      "imageAlt": "Josh Loughran"
+    },
+    "contactInfo": {
+      "location": "Cincinnati, OH 45245",
+      "email": "JoshLoughran1@gmail.com",
+      "phone": "(513) 293-3465",
+      "linkedin": "linkedin.com/in/josh-loughran/"
+    },
+    "experience": {
+      "title": "Experiencia Profesional",
+      "positions": [
+        {
+          "title": "Diseñador Senior de Producto",
+          "company": "Siemens Digital Industries Software | Milford, OH",
+          "duration": "2018 – Presente",
+          "bullets": [
+            "Liderar el diseño UX e integración de capacidades impulsadas por IA y LLM en Siemens NX, mejorando el análisis predictivo, los flujos de trabajo automatizados y las interacciones del usuario.",
+            "Desarrollar aplicaciones basadas en agentes utilizando la biblioteca Transformers y la API de OpenAI para mejorar la productividad de los gerentes de producto (PM) y el intercambio de conocimientos en la investigación de usuarios.",
+            "Definir los requisitos del producto y estrategias UX para aplicaciones en la nube/web, soluciones marinas y de enrutamiento eléctrico y mecánico.",
+            "Crear maquetas interactivas, prototipos y especificaciones funcionales a partir de diseños en Figma, conectando eficazmente el diseño centrado en el usuario y los procesos de desarrollo.",
+            "Gestionar ciclos ágiles de desarrollo de productos y facilitar la colaboración en equipo para despliegues y mejoras continuas.",
+            "Extracción automatizada y revisión basada en reglas del texto visible al usuario en Siemens NX mediante LLM, reduciendo el tiempo de revisión manual en más del 30% y mejorando la tasa de detección de incidencias en más del 20%."
+          ],
+          "logoAlt": "Siemens logo"
+        },
+        {
+          "title": "Ingeniero de Aplicaciones",
+          "company": "Siemens Digital Industries Software | Milford, OH",
+          "duration": "2014 – 2018",
+          "bullets": [
+            "Procedimientos de prueba automatizados en Siemens NX Routing & Assemblies, Teamcenter y Mentor Graphics Capital, mejorando significativamente la fiabilidad del producto.",
+            "Mejoró los procesos de aseguramiento de calidad y gestionó proactivamente las comunicaciones y riesgos con las partes interesadas."
+          ],
+          "logoAlt": "Siemens logo"
+        },
+        {
+          "title": "Ingeniero de Diseño de Motores",
+          "company": "Honda R&D | Marysville, OH",
+          "duration": "2013 – 2014",
+          "bullets": [
+            "Desarrolló componentes del sistema de combustible cumpliendo altos estándares de seguridad, eficiencia y rendimiento.",
+            "Colaboró entre departamentos para lograr resultados de ingeniería sólidos."
+          ],
+          "logoAlt": "Honda logo"
+        }
+      ]
+    },
+    "education": {
+      "title": "Educación y Certificaciones",
+      "institutions": [
+        {
+          "degree": "Licenciatura en Ciencias, Ingeniería Mecánica",
+          "school": "University of Cincinnati | Cincinnati, OH",
+          "duration": "2008 – 2013",
+          "bullets": [
+            "Enfoque en el diseño mecánico, métodos computacionales y ingeniería de sistemas.",
+            "Participó en el programa cooperativo, obteniendo experiencia práctica con líderes de la industria."
+          ],
+          "logoAlt": "University of Cincinnati logo"
+        },
+        {
+          "degree": "SAFe® 5 Practitioner",
+          "school": "Scaled Agile, Inc.",
+          "duration": "2021 – Presente",
+          "bullets": [
+            "Certificado en la aplicación de principios y prácticas Lean-Agile en toda la empresa.",
+            "Experto en la planificación y ejecución de Incrementos de Programa dentro de un Agile Release Train."
+          ],
+          "logoAlt": "SAFe logo"
+        }
+      ]
+    },
+    "skills": {
+      "title": "Habilidades Técnicas",
+      "categories": {
+        "ai": {
+          "label": "IA & ML",
+          "skills": ["AWS Bedrock", "Azure OpenAI", "Transformers", "CrewAI", "Prompt Design"]
+        },
+        "web": {
+          "label": "Desarrollo Web",
+          "skills": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Node.js"]
+        },
+        "programming": {
+          "label": "Programación",
+          "skills": ["Python", "C++", "MATLAB", "Visual Basic"]
+        },
+        "databases": {
+          "label": "Bases de Datos",
+          "skills": ["SQL", "MongoDB", "Chroma", "OpenSearch", "FAISS"]
+        },
+        "cloud": {
+          "label": "Cloud & DevOps",
+          "skills": ["AWS S3", "Docker", "Git", "CI/CD"]
+        },
+        "cad": {
+          "label": "CAD & Simulación",
+          "skills": ["Siemens NX", "Solidworks", "ANSYS", "CATIA", "AutoCAD"]
+        },
+        "ux": {
+          "label": "Herramientas UI/UX",
+          "skills": ["Figma", "Sketch", "Illustrator", "Lunacy"]
+        }
+      }
+    },
+    "projects": {
+      "title": "Proyectos y Contribuciones",
+      "projectsList": [
+        {
+          "title": "Aplicación de Agrupación de Estudiantes",
+          "description": "Desarrolló una aplicación web utilizando React y Node.js, permitiendo a los educadores gestionar clases y generar grupos de estudiantes equilibrados.",
+          "category": "Aplicación Web",
+          "buttonText": "Demo en Vivo",
+          "imageAlt": "Aplicación de Agrupación de Estudiantes",
+          "imageUrl": "/student-grouping-app-thumbnail.jpg"
+        },
+        {
+          "title": "Aeronave Hummel Ultracruiser",
+          "description": "Construyendo activamente una aeronave Hummel Ultracruiser en mi taller, explorando mi pasión por la innovación aeroespacial y la ingeniería práctica.",
+          "category": "Proyecto Aeroespacial Personal",
+          "buttonText": "Sigue el Progreso",
+          "imageAlt": "Aeronave Hummel Ultracruiser",
+          "imageUrl": "/hummel-ultracruiser-thumbnail.jpg"
+        },
+        {
+          "title": "Contribuciones en Siemens NX",
+          "description": "Proyectos Profesionales",
+          "subProjects": [
+            {
+              "title": "Seleccionar Caras y Bordes Similares",
+              "description": "Utiliza el reconocimiento de geometría de NX para encontrar y agrupar rápidamente caras o bordes con propiedades similares (por ejemplo, planas, cilíndricas), ahorrando tiempo en tareas repetitivas de selección.",
+              "linkText": "Leer más en el blog NX Tips & Tricks",
+              "imageAlt": "Seleccionar Caras y Bordes Similares",
+              "imageUrl": "/nx-select-similar-faces-thumbnail.png"
+            },
+            {
+              "title": "Seleccionar Componentes Similares",
+              "description": "Utiliza las herramientas de selección de NX para agrupar automáticamente componentes similares en grandes ensamblajes para una edición eficiente.",
+              "imageAlt": "Seleccionar Componentes Similares",
+              "videoId": "1ka_uD8LM80",
+              "thumbnailUrl": "https://img.youtube.com/vi/1ka_uD8LM80/hqdefault.jpg"
+            },
+            {
+              "title": "NX X Copilot Chat",
+              "description": "Experimenta asistencia de diseño impulsada por IA con análisis en tiempo real y ayuda contextual directamente dentro de NX.",
+              "imageAlt": "NX X Copilot Chat",
+              "videoId": "lk5VmsjtOns",
+              "thumbnailUrl": "https://img.youtube.com/vi/lk5VmsjtOns/hqdefault.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    "volunteer": {
+      "title": "Voluntariado y Liderazgo",
+      "roles": [
+        {
+          "title": "Embajador STEM",
+          "organization": "Siemens",
+          "description": "Gestionó programas y tecnologías de divulgación STEM."
+        },
+        {
+          "title": "Cofundador, Protectores Faciales Impresos en 3D",
+          "organization": "Respuesta COVID-19",
+          "description": "Produjo 5,000 protectores faciales durante la pandemia de COVID-19."
+        },
+        {
+          "title": "Ingeniero",
+          "organization": "Engineers Without Borders",
+          "description": "Diseñó sistemas de distribución de agua para una comunidad en Tanzania."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Ponte en Contacto",
+      "contactInfoTitle": "Información de Contacto",
+      "downloadResumeTitle": "Descarga Mi Currículum",
+      "contactDetails": {
+        "email": "JoshLoughran1@gmail.com",
+        "phone": "(513) 293-3465",
+        "linkedin": "linkedin.com/in/josh-loughran/",
+        "github": "github.com/4eyedRaven"
+      },
+      "resumeText": "Descarga mi currículum en el formato que prefieras:",
+      "resumeOptions": [
+        {
+          "format": "Currículum - Formato PDF",
+          "subText": "Formato universal para visualizar",
+          "link": "https://drive.google.com/file/d/1I4pO1uFQ6UYX9kbSmwvnwLEDFhWv791F/view?usp=sharing"
+        },
+        {
+          "format": "Currículum - Formato DOCX",
+          "subText": "Formato editable para MS Word",
+          "link": "https://docs.google.com/document/d/1LQh8thg99IcEKeRDE10bK-c3HePjEG1Y/edit?usp=sharing&ouid=109595031920595380639&rtpof=true&sd=true"
+        }
+      ]
+    },
+    "videoPlayer": {
+      "iframeTitle": "Reproductor de video de YouTube"
+    },
+    "footer": {
+      "rights": "© {year} Josh Loughran. Todos los derechos reservados.",
+      "social": {
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+      }
+    }
+  }

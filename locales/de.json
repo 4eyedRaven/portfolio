@@ -1,0 +1,234 @@
+{
+    "header": {
+      "title": "Josh Loughran",
+      "nav": {
+        "about": "Über mich",
+        "experience": "Erfahrung",
+        "education": "Bildung",
+        "skills": "Fähigkeiten",
+        "projects": "Projekte",
+        "contact": "Kontakt"
+      }
+    },
+    "hero": {
+      "title": "Senior UX-Experte & Softwareingenieur",
+      "subtitle": "Integration von KI, LLMs und nutzerzentriertem Design in intuitive Ingenieurslösungen",
+      "badges": {
+        "ai": "KI & Maschinelles Lernen",
+        "ux": "UX-Design",
+        "web": "Webentwicklung",
+        "software": "Softwareentwicklung"
+      },
+      "buttons": {
+        "contact": "Kontakt aufnehmen",
+        "experience": "Erfahrung ansehen"
+      },
+      "imageAlt": "Josh Loughran"
+    },
+    "contactInfo": {
+      "location": "Cincinnati, OH 45245",
+      "email": "JoshLoughran1@gmail.com",
+      "phone": "(513) 293-3465",
+      "linkedin": "linkedin.com/in/josh-loughran/"
+    },
+    "experience": {
+      "title": "Berufserfahrung",
+      "positions": [
+        {
+          "title": "Senior Produktdesigner",
+          "company": "Siemens Digital Industries Software | Milford, OH",
+          "duration": "2018 – Gegenwart",
+          "bullets": [
+            "Führe das UX-Design und die Integration von KI- und LLM-gesteuerten Funktionen in Siemens NX an, um prädiktive Analysen, automatisierte Arbeitsabläufe und Benutzerinteraktionen zu verbessern.",
+            "Entwickle agentengesteuerte Anwendungen unter Verwendung der Transformers-Bibliothek und der OpenAI-API zur Steigerung der Produktivität von Produktmanagern (PM) und zur Förderung des Wissensaustauschs in der Nutzerforschung.",
+            "Definiere Produktanforderungen und UX-Strategien für Cloud-/Webanwendungen, maritime sowie elektrische und mechanische Routing-Lösungen.",
+            "Erstelle interaktive Mockups, Prototypen und funktionale Spezifikationen aus Figma-Designs, um nutzerzentriertes Design und Entwicklungsprozesse effektiv zu verbinden.",
+            "Verwalte agile Produktentwicklungszyklen und fördere die Teamzusammenarbeit für kontinuierliche Bereitstellung und Verbesserungen.",
+            "Automatisierte Extraktion und regelbasierte Überprüfung von benutzerorientiertem Text in Siemens NX mittels LLM, wodurch die manuelle Überprüfungszeit um über 30% reduziert und die Fehlererfassungsrate um über 20% verbessert wurde."
+          ],
+          "logoAlt": "Siemens logo"
+        },
+        {
+          "title": "Anwendungsingenieur",
+          "company": "Siemens Digital Industries Software | Milford, OH",
+          "duration": "2014 – 2018",
+          "bullets": [
+            "Automatisierte Testverfahren in Siemens NX Routing & Assemblies, Teamcenter und Mentor Graphics Capital, was die Produktzuverlässigkeit erheblich verbessert hat.",
+            "Verbesserte QA-Prozesse und proaktive Verwaltung der Kommunikation und Risiken mit den Stakeholdern."
+          ],
+          "logoAlt": "Siemens logo"
+        },
+        {
+          "title": "Motorbauingenieur",
+          "company": "Honda R&D | Marysville, OH",
+          "duration": "2013 – 2014",
+          "bullets": [
+            "Entwickelte Kraftstoffsystemkomponenten, die hohe Anforderungen an Sicherheit, Effizienz und Leistung erfüllten.",
+            "Arbeitete abteilungsübergreifend zusammen, um robuste technische Ergebnisse zu erzielen."
+          ],
+          "logoAlt": "Honda logo"
+        }
+      ]
+    },
+    "education": {
+      "title": "Bildung & Zertifizierungen",
+      "institutions": [
+        {
+          "degree": "Bachelor of Science, Maschinenbau",
+          "school": "University of Cincinnati | Cincinnati, OH",
+          "duration": "2008 – 2013",
+          "bullets": [
+            "Fokus auf mechanisches Design, rechnergestützte Methoden und Systemtechnik.",
+            "Teilnahme am Kooperationsprogramm, um praktische Erfahrungen mit Branchenführern zu sammeln."
+          ],
+          "logoAlt": "University of Cincinnati logo"
+        },
+        {
+          "degree": "SAFe® 5 Practitioner",
+          "school": "Scaled Agile, Inc.",
+          "duration": "2021 – Gegenwart",
+          "bullets": [
+            "Zertifiziert in der Anwendung von Lean-Agile-Prinzipien und -Praktiken im gesamten Unternehmen.",
+            "Erfahren in der Planung und Umsetzung von Program Increments innerhalb eines Agile Release Trains."
+          ],
+          "logoAlt": "SAFe logo"
+        }
+      ]
+    },
+    "skills": {
+      "title": "Technische Fähigkeiten",
+      "categories": {
+        "ai": {
+          "label": "KI & ML",
+          "skills": ["AWS Bedrock", "Azure OpenAI", "Transformers", "CrewAI", "Prompt Design"]
+        },
+        "web": {
+          "label": "Webentwicklung",
+          "skills": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Node.js"]
+        },
+        "programming": {
+          "label": "Programmierung",
+          "skills": ["Python", "C++", "MATLAB", "Visual Basic"]
+        },
+        "databases": {
+          "label": "Datenbanken",
+          "skills": ["SQL", "MongoDB", "Chroma", "OpenSearch", "FAISS"]
+        },
+        "cloud": {
+          "label": "Cloud & DevOps",
+          "skills": ["AWS S3", "Docker", "Git", "CI/CD"]
+        },
+        "cad": {
+          "label": "CAD & Simulation",
+          "skills": ["Siemens NX", "Solidworks", "ANSYS", "CATIA", "AutoCAD"]
+        },
+        "ux": {
+          "label": "UI/UX-Tools",
+          "skills": ["Figma", "Sketch", "Illustrator", "Lunacy"]
+        }
+      }
+    },
+    "projects": {
+      "title": "Projekte & Beiträge",
+      "projectsList": [
+        {
+          "title": "Studentengruppierungs-App",
+          "description": "Entwickelte eine Webanwendung mit React und Node.js, die Pädagogen dabei unterstützt, Klassen zu verwalten und ausgewogene Studentengruppen zu erstellen.",
+          "category": "Webanwendung",
+          "buttonText": "Live-Demo",
+          "imageAlt": "Studentengruppierungs-App",
+          "imageUrl": "/student-grouping-app-thumbnail.jpg"
+        },
+        {
+          "title": "Hummel Ultracruiser Aircraft",
+          "description": "Aktiv im Aufbau eines Hummel Ultracruiser Flugzeugs in meiner Heimwerkstatt, wobei ich meiner Leidenschaft für Luftfahrtinnovation und praxisnahes Ingenieurwesen nachgehe.",
+          "category": "Persönliches Luftfahrtprojekt",
+          "buttonText": "Folge mir",
+          "imageAlt": "Hummel Ultracruiser Aircraft",
+          "imageUrl": "/hummel-ultracruiser-thumbnail.jpg"
+        },
+        {
+          "title": "Siemens NX Contributions",
+          "description": "Berufliche Projekte",
+          "subProjects": [
+            {
+              "title": "Select Similar Faces and Edges",
+              "description": "Nutzen Sie die Geometrieerkennung von NX, um schnell Flächen oder Kanten mit ähnlichen Eigenschaften (z. B. plan, zylindrisch) zu finden und zu gruppieren, und so wiederholende Auswahlaufgaben zu sparen.",
+              "linkText": "Mehr dazu im NX Tips & Tricks Blog lesen",
+              "imageAlt": "Select Similar Faces and Edges",
+              "imageUrl": "/nx-select-similar-faces-thumbnail.png"
+            },
+            {
+              "title": "Select Similar Components",
+              "description": "Nutze die Auswahlwerkzeuge von NX, um ähnliche Komponenten in großen Baugruppen automatisch zu gruppieren und effizient zu bearbeiten.",
+              "imageAlt": "Select Similar Components",
+              "videoId": "1ka_uD8LM80",
+              "thumbnailUrl": "https://img.youtube.com/vi/1ka_uD8LM80/hqdefault.jpg"
+            },
+            {
+              "title": "NX X Copilot Chat",
+              "description": "Erlebe KI-gestützte Designunterstützung mit Echtzeit-Einblicken und kontextbezogener Hilfe direkt in NX.",
+              "imageAlt": "NX X Copilot Chat",
+              "videoId": "lk5VmsjtOns",
+              "thumbnailUrl": "https://img.youtube.com/vi/lk5VmsjtOns/hqdefault.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    "volunteer": {
+      "title": "Freiwilligenarbeit & Führung",
+      "roles": [
+        {
+          "title": "STEM-Botschafter",
+          "organization": "Siemens",
+          "description": "Leitete STEM-Engagement-Programme und Technologien."
+        },
+        {
+          "title": "Mitgründer, 3D-gedruckte Gesichtsschutzschilde",
+          "organization": "COVID-19 Response",
+          "description": "Produzierte während der COVID-19-Pandemie 5.000 Gesichtsschutzschilde."
+        },
+        {
+          "title": "Ingenieur",
+          "organization": "Engineers Without Borders",
+          "description": "Entwarf Wasserversorgungssysteme für eine tansanische Gemeinde."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Kontakt aufnehmen",
+      "contactInfoTitle": "Kontaktinformationen",
+      "downloadResumeTitle": "Lade meinen Lebenslauf herunter",
+      "contactDetails": {
+        "email": "JoshLoughran1@gmail.com",
+        "phone": "(513) 293-3465",
+        "linkedin": "linkedin.com/in/josh-loughran/",
+        "github": "github.com/4eyedRaven"
+      },
+      "resumeText": "Lade meinen Lebenslauf in deinem bevorzugten Format herunter:",
+      "resumeOptions": [
+        {
+          "format": "Lebenslauf - PDF-Format",
+          "subText": "Universelles Format zum Ansehen",
+          "link": "https://drive.google.com/file/d/1I4pO1uFQ6UYX9kbSmwvnwLEDFhWv791F/view?usp=sharing"
+        },
+        {
+          "format": "Lebenslauf - DOCX-Format",
+          "subText": "Bearbeitbares Format für MS Word",
+          "link": "https://docs.google.com/document/d/1LQh8thg99IcEKeRDE10bK-c3HePjEG1Y/edit?usp=sharing&ouid=109595031920595380639&rtpof=true&sd=true"
+        }
+      ]
+    },
+    "videoPlayer": {
+      "iframeTitle": "YouTube-Videoplayer"
+    },
+    "footer": {
+      "rights": "© {year} Josh Loughran. Alle Rechte vorbehalten.",
+      "social": {
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+      }
+    }
+  }

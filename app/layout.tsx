@@ -10,13 +10,15 @@ export const metadata: Metadata = {
 }
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  // Read the 'theme' cookie on the server
+  // Read cookies from the request
   const cookieStore = await cookies()
   // Default to 'light' if no theme is set
   const theme = cookieStore.get('theme')?.value || 'light'
+  // Read the locale cookie; default to English ('en') if none exists
+  const locale = cookieStore.get('locale')?.value || 'en'
 
   return (
-    <html lang="en" className={theme} style={{ colorScheme: theme }}>
+    <html lang={locale} className={theme} style={{ colorScheme: theme }}>
       <head />
       <body>
         <ThemeProvider

@@ -1,0 +1,234 @@
+{
+    "header": {
+      "title": "Josh Loughran",
+      "nav": {
+        "about": "About",
+        "experience": "Experience",
+        "education": "Education",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact"
+      }
+    },
+    "hero": {
+      "title": "Senior UX Expert & Software Engineer",
+      "subtitle": "Integrating AI, LLMs, and user-centered design into intuitive engineering solutions",
+      "badges": {
+        "ai": "AI & Machine Learning",
+        "ux": "UX Design",
+        "web": "Web Development",
+        "software": "Software Engineering"
+      },
+      "buttons": {
+        "contact": "Contact Me",
+        "experience": "View Experience"
+      },
+      "imageAlt": "Josh Loughran"
+    },
+    "contactInfo": {
+      "location": "Cincinnati, OH 45245",
+      "email": "JoshLoughran1@gmail.com",
+      "phone": "(513) 293-3465",
+      "linkedin": "linkedin.com/in/josh-loughran/"
+    },
+    "experience": {
+      "title": "Professional Experience",
+      "positions": [
+        {
+          "title": "Senior Product Designer",
+          "company": "Siemens Digital Industries Software | Milford, OH",
+          "duration": "2018 – Present",
+          "bullets": [
+            "Lead UX design and integration of AI and LLM-driven capabilities into Siemens NX, improving predictive analysis, automated workflows, and user interactions.",
+            "Develop agent-driven applications using the Transformers library and OpenAI API for enhanced product manager (PM) productivity and user research knowledge share.",
+            "Define product requirements and UX strategies for cloud/web applications, marine, and electrical and mechanical routing solutions.",
+            "Create interactive mockups, prototypes, and functional specifications from Figma designs, effectively bridging user-centered design and development processes.",
+            "Manage agile product development cycles and facilitate team collaboration for continuous deployment and enhancements.",
+            "Automated extraction and rule-based review of user-facing text within Siemens NX via LLM, reducing manual review time over 30% and improving incidence catch rate over 20%."
+          ],
+          "logoAlt": "Siemens logo"
+        },
+        {
+          "title": "Application Engineer",
+          "company": "Siemens Digital Industries Software | Milford, OH",
+          "duration": "2014 – 2018",
+          "bullets": [
+            "Automated testing procedures across Siemens NX Routing & Assemblies, Teamcenter, and Mentor Graphics Capital, significantly improving product reliability.",
+            "Enhanced QA processes and proactively managed stakeholder communications and risks."
+          ],
+          "logoAlt": "Siemens logo"
+        },
+        {
+          "title": "Engine Design Engineer",
+          "company": "Honda R&D | Marysville, OH",
+          "duration": "2013 – 2014",
+          "bullets": [
+            "Developed fuel system components meeting high standards for safety, efficiency, and performance.",
+            "Collaborated across departments to achieve robust engineering outcomes."
+          ],
+          "logoAlt": "Honda logo"
+        }
+      ]
+    },
+    "education": {
+      "title": "Education & Certifications",
+      "institutions": [
+        {
+          "degree": "Bachelor of Science, Mechanical Engineering",
+          "school": "University of Cincinnati | Cincinnati, OH",
+          "duration": "2008 – 2013",
+          "bullets": [
+            "Focus on mechanical design, computational methods, and systems engineering.",
+            "Participated in the co-op program, gaining practical experience with industry leaders."
+          ],
+          "logoAlt": "University of Cincinnati logo"
+        },
+        {
+          "degree": "SAFe® 5 Practitioner",
+          "school": "Scaled Agile, Inc.",
+          "duration": "2021 – Present",
+          "bullets": [
+            "Certified in applying Lean-Agile principles and practices across the enterprise.",
+            "Experienced in planning and executing Program Increments within an Agile Release Train."
+          ],
+          "logoAlt": "SAFe logo"
+        }
+      ]
+    },
+    "skills": {
+      "title": "Technical Skills",
+      "categories": {
+        "ai": {
+          "label": "AI & ML",
+          "skills": ["AWS Bedrock", "Azure OpenAI", "Transformers", "CrewAI", "Prompt Design"]
+        },
+        "web": {
+          "label": "Web Dev",
+          "skills": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Node.js"]
+        },
+        "programming": {
+          "label": "Programming",
+          "skills": ["Python", "C++", "MATLAB", "Visual Basic"]
+        },
+        "databases": {
+          "label": "Databases",
+          "skills": ["SQL", "MongoDB", "Chroma", "OpenSearch", "FAISS"]
+        },
+        "cloud": {
+          "label": "Cloud & DevOps",
+          "skills": ["AWS S3", "Docker", "Git", "CI/CD"]
+        },
+        "cad": {
+          "label": "CAD & Simulation",
+          "skills": ["Siemens NX", "Solidworks", "ANSYS", "CATIA", "AutoCAD"]
+        },
+        "ux": {
+          "label": "UI/UX Tools",
+          "skills": ["Figma", "Sketch", "Illustrator", "Lunacy"]
+        }
+      }
+    },
+    "projects": {
+      "title": "Projects & Contributions",
+      "projectsList": [
+        {
+          "title": "Student Grouping App",
+          "description": "Developed a web application using React and Node.js, enabling educators to manage classes and generate balanced student groups.",
+          "category": "Web Application",
+          "buttonText": "Live Demo",
+          "imageAlt": "Student Grouping App",
+          "imageUrl": "/student-grouping-app-thumbnail.jpg"
+        },
+        {
+          "title": "Hummel Ultracruiser Aircraft",
+          "description": "Actively building a Hummel Ultracruiser aircraft in my home workshop, exploring a passion for aerospace innovation and hands-on engineering.",
+          "category": "Personal Aerospace Project",
+          "buttonText": "Follow Along",
+          "imageAlt": "Hummel Ultracruiser Aircraft",
+          "imageUrl": "/hummel-ultracruiser-thumbnail.jpg"
+        },
+        {
+          "title": "Siemens NX Contributions",
+          "description": "Professional Projects",
+          "subProjects": [
+            {
+              "title": "Select Similar Faces and Edges",
+              "description": "Leverages NX’s geometry recognition to quickly find and group faces or edges with similar properties (e.g., planar, cylindrical), saving time on repetitive selection tasks.",
+              "linkText": "Read more in this NX Tips & Tricks blog",
+              "imageAlt": "Select Similar Faces and Edges",
+              "imageUrl": "/nx-select-similar-faces-thumbnail.png"
+            },
+            {
+              "title": "Select Similar Components",
+              "description": "Utilize NX’s selection tools to automatically group similar components in large assemblies for efficient editing.",
+              "imageAlt": "Select Similar Components",
+              "videoId": "1ka_uD8LM80",
+              "thumbnailUrl": "https://img.youtube.com/vi/1ka_uD8LM80/hqdefault.jpg"
+            },
+            {
+              "title": "NX X Copilot Chat",
+              "description": "Experience AI-powered design assistance with real-time insights and contextual help right inside NX.",
+              "imageAlt": "NX X Copilot Chat",
+              "videoId": "lk5VmsjtOns",
+              "thumbnailUrl": "https://img.youtube.com/vi/lk5VmsjtOns/hqdefault.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    "volunteer": {
+      "title": "Volunteer & Leadership",
+      "roles": [
+        {
+          "title": "STEM Ambassador",
+          "organization": "Siemens",
+          "description": "Managed STEM outreach programs and technologies."
+        },
+        {
+          "title": "Co-founder, 3D Printed Face Shields",
+          "organization": "COVID-19 Response",
+          "description": "Produced 5,000 face shields during the COVID-19 pandemic."
+        },
+        {
+          "title": "Engineer",
+          "organization": "Engineers Without Borders",
+          "description": "Designed water distribution systems for a Tanzanian community."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "contactInfoTitle": "Contact Information",
+      "downloadResumeTitle": "Download My Resume",
+      "contactDetails": {
+        "email": "JoshLoughran1@gmail.com",
+        "phone": "(513) 293-3465",
+        "linkedin": "linkedin.com/in/josh-loughran/",
+        "github": "github.com/4eyedRaven"
+      },
+      "resumeText": "Download my resume in your preferred format:",
+      "resumeOptions": [
+        {
+          "format": "Resume - PDF Format",
+          "subText": "Universal format for viewing",
+          "link": "https://drive.google.com/file/d/1I4pO1uFQ6UYX9kbSmwvnwLEDFhWv791F/view?usp=sharing"
+        },
+        {
+          "format": "Resume - DOCX Format",
+          "subText": "Editable format for MS Word",
+          "link": "https://docs.google.com/document/d/1LQh8thg99IcEKeRDE10bK-c3HePjEG1Y/edit?usp=sharing&ouid=109595031920595380639&rtpof=true&sd=true"
+        }
+      ]
+    },
+    "videoPlayer": {
+      "iframeTitle": "YouTube video player"
+    },
+    "footer": {
+      "rights": "© {year} Josh Loughran. All rights reserved.",
+      "social": {
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+      }
+    }
+  }
