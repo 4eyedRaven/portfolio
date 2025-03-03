@@ -108,13 +108,6 @@ function MobileNav({ locale, modeToggle, languageToggle }: MobileNavProps) {
 
   useEffect(() => {
     function handlePointerDown(event: PointerEvent) {
-      // If the tap is within any language toggle element, don't close the menu.
-      if (
-        event.target instanceof Element &&
-        event.target.closest('.language-toggle')
-      ) {
-        return;
-      }
       // If the tap is within a Radix dropdown content (rendered via portal), ignore it.
       if (
         event.target instanceof Element &&
@@ -169,7 +162,10 @@ function MobileNav({ locale, modeToggle, languageToggle }: MobileNavProps) {
             {/* Toggles for theme and language */}
             <div className="flex items-center gap-4">
               {modeToggle}
-              {languageToggle}
+              {/* Wrap language toggle to stop pointer events from bubbling up */}
+              <div onPointerDown={(e) => e.stopPropagation()}>
+                {languageToggle}
+              </div>
             </div>
           </nav>
         </div>
@@ -177,7 +173,6 @@ function MobileNav({ locale, modeToggle, languageToggle }: MobileNavProps) {
     </div>
   );
 }
-
 
 export default function HomeClient({ initialLang }: { initialLang: string }) {
   // Initialize language state from the server-passed value.
