@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -96,19 +96,34 @@ function VideoPlayer({
 }
 
 // MobileNav now accepts modeToggle and languageToggle props so they can be rendered inside the menu.
+// Revised MobileNav in app/HomeClient.tsx
+
 function MobileNav({
   locale,
   modeToggle,
   languageToggle,
 }: {
-  locale: any
-  modeToggle: React.ReactNode
-  languageToggle: React.ReactNode
+  locale: any;
+  modeToggle: React.ReactNode;
+  languageToggle: React.ReactNode;
 }) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
+  const navRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (navRef.current && !navRef.current.contains(event.target as Node)) {
+        setOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
-    <>
+    <div ref={navRef}>
       {/* The hamburger button */}
       <Button variant="ghost" className="p-2" onClick={() => setOpen(!open)}>
         {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -150,8 +165,8 @@ function MobileNav({
           </nav>
         </div>
       )}
-    </>
-  )
+    </div>
+  );
 }
 
 
