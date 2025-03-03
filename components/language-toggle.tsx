@@ -1,4 +1,3 @@
-// components/language-toggle.tsx
 "use client";
 import Cookies from "js-cookie";
 import { Button } from "@/components/ui/button";
@@ -29,7 +28,19 @@ export function LanguageToggle({ lang, setLang }: LanguageToggleProps) {
           <Globe className="h-4 w-4" />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
+
+      {/* 
+        - side="bottom" ensures the dropdown opens below the button.
+        - align="end" lines up the dropdown’s right edge with the trigger’s right edge.
+        - sideOffset adds a small gap.
+        - max-h-56 + overflow-y-auto ensures the menu is scrollable if it’s too tall.
+      */}
+      <DropdownMenuContent
+        side="bottom"
+        align="end"
+        sideOffset={8}
+        className="max-h-56 overflow-y-auto"
+      >
         <DropdownMenuItem onSelect={() => handleLanguageChange("en")}>
           English
         </DropdownMenuItem>

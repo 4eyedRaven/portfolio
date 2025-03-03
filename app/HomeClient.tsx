@@ -95,18 +95,31 @@ function VideoPlayer({
   );
 }
 
-// MobileNav accepts the active locale as a prop.
-function MobileNav({ locale }: { locale: any }) {
-  const [open, setOpen] = useState(false);
+// MobileNav now accepts modeToggle and languageToggle props so they can be rendered inside the menu.
+function MobileNav({
+  locale,
+  modeToggle,
+  languageToggle,
+}: {
+  locale: any
+  modeToggle: React.ReactNode
+  languageToggle: React.ReactNode
+}) {
+  const [open, setOpen] = useState(false)
 
   return (
-    <div>
+    <>
+      {/* The hamburger button */}
       <Button variant="ghost" className="p-2" onClick={() => setOpen(!open)}>
         {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
       </Button>
+
       {open && (
-        <div className="absolute top-16 left-0 z-50 w-full border-t border-b bg-background">
+        // Use fixed + left-0 + right-0 to ensure full viewport width,
+        // ignoring any parent container constraints.
+        <div className="fixed top-16 left-0 right-0 z-50 border-t border-b bg-background">
           <nav className="flex flex-col items-start p-4 gap-4">
+            {/* Navigation links */}
             <Link href="#about" onClick={() => setOpen(false)} className="hover:text-foreground/80">
               {locale.header.nav.about}
             </Link>
@@ -125,12 +138,22 @@ function MobileNav({ locale }: { locale: any }) {
             <Link href="#contact" onClick={() => setOpen(false)} className="hover:text-foreground/80">
               {locale.header.nav.contact}
             </Link>
+
+            {/* Divider */}
+            <div className="w-full border-t border-border my-2"></div>
+
+            {/* Theme toggle & language toggle */}
+            <div className="flex items-center gap-4">
+              {modeToggle}
+              {languageToggle}
+            </div>
           </nav>
         </div>
       )}
-    </div>
-  );
+    </>
+  )
 }
+
 
 export default function HomeClient({ initialLang }: { initialLang: string }) {
   // Initialize language state from the server-passed value.
@@ -178,13 +201,19 @@ export default function HomeClient({ initialLang }: { initialLang: string }) {
                 {locale.header.nav.contact}
               </Link>
             </nav>
-            {/* Mobile Nav, Mode Toggle & Language Toggle */}
+            {/* Mobile Nav with toggles; on desktop show toggles separately */}
             <div className="flex items-center gap-2">
               <div className="md:hidden">
-                <MobileNav locale={locale} />
+                <MobileNav
+                  locale={locale}
+                  modeToggle={<ModeToggle />}
+                  languageToggle={<LanguageToggle lang={lang} setLang={setLang} />}
+                />
               </div>
-              <ModeToggle />
-              <LanguageToggle lang={lang} setLang={setLang} />
+              <div className="hidden md:flex items-center gap-2">
+                <ModeToggle />
+                <LanguageToggle lang={lang} setLang={setLang} />
+              </div>
             </div>
           </div>
         </header>
