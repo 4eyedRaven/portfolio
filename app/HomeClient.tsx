@@ -112,6 +112,13 @@ function MobileNav({
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
+      // If the event target is inside the Radix dropdown content, ignore the click.
+      if (
+        event.target instanceof Element &&
+        event.target.closest('[data-radix-dropdown-menu-content]')
+      ) {
+        return;
+      }
       if (navRef.current && !navRef.current.contains(event.target as Node)) {
         setOpen(false);
       }
