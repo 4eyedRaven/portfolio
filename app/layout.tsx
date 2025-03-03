@@ -1,7 +1,10 @@
+// app/layout.tsx
+
 import type { Metadata } from 'next'
 import { cookies } from 'next/headers'
 import { ThemeProvider } from '@/components/theme-provider'
 import './globals.css'
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: 'Josh Loughran - Portfolio',
@@ -29,6 +32,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         >
           {children}
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   )
