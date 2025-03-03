@@ -284,9 +284,13 @@ export default function HomeClient({ initialLang }: { initialLang: string }) {
               <MapPinIcon className="h-5 w-5 text-muted-foreground" />
               <span>{locale.contactInfo.location}</span>
             </div>
-            <div className="flex items-center gap-2">
+            {/* Add break-all to this container */}
+            <div className="flex items-center gap-2 break-all">
               <MailIcon className="h-5 w-5 text-muted-foreground" />
-              <a href={`mailto:${locale.contactInfo.email}`} className="hover:underline">
+              <a
+                href={`mailto:${locale.contactInfo.email}`}
+                className="hover:underline break-all"
+              >
                 {locale.contactInfo.email}
               </a>
             </div>
