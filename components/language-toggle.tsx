@@ -41,37 +41,37 @@ export function LanguageToggle({ lang, setLang }: LanguageToggleProps) {
         sideOffset={8}
         className="max-h-56 overflow-y-auto"
       >
-        <DropdownMenuItem onSelect={() => handleLanguageChange("en")}>
+        <DropdownMenuItem onClick={() => handleLanguageChange("en")}>
           English
         </DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => handleLanguageChange("de")}>
+        <DropdownMenuItem onClick={() => handleLanguageChange("de")}>
           Deutsch
         </DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => handleLanguageChange("es")}>
+        <DropdownMenuItem onClick={() => handleLanguageChange("es")}>
           Español
         </DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => handleLanguageChange("fr")}>
+        <DropdownMenuItem onClick={() => handleLanguageChange("fr")}>
           Français
         </DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => handleLanguageChange("it")}>
+        <DropdownMenuItem onClick={() => handleLanguageChange("it")}>
           Italiano
         </DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => handleLanguageChange("pt")}>
+        <DropdownMenuItem onClick={() => handleLanguageChange("pt")}>
           Português
         </DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => handleLanguageChange("zh")}>
+        <DropdownMenuItem onClick={() => handleLanguageChange("zh")}>
           中文
         </DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => handleLanguageChange("ja")}>
+        <DropdownMenuItem onClick={() => handleLanguageChange("ja")}>
           日本語
         </DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => handleLanguageChange("ko")}>
+        <DropdownMenuItem onClick={() => handleLanguageChange("ko")}>
           한국어
         </DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => handleLanguageChange("hi")}>
+        <DropdownMenuItem onClick={() => handleLanguageChange("hi")}>
           हिंदी
         </DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => handleLanguageChange("ar")}>
+        <DropdownMenuItem onClick={() => handleLanguageChange("ar")}>
           العربية
         </DropdownMenuItem>
       </DropdownMenuContent>
