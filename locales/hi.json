@@ -1,234 +1,234 @@
 {
-    "header": {
-      "title": "Josh Loughran",
-      "nav": {
-        "about": "परिचय",
-        "experience": "अनुभव",
-        "education": "शिक्षा",
-        "skills": "कौशल",
-        "projects": "परियोजनाएँ",
-        "contact": "संपर्क"
+  "header": {
+    "title": "Josh Loughran",
+    "nav": {
+      "about": "परिचय",
+      "experience": "अनुभव",
+      "education": "शिक्षा",
+      "skills": "कौशल",
+      "projects": "परियोजनाएँ",
+      "contact": "संपर्क"
+    }
+  },
+  "hero": {
+    "title": "सीनियर UX विशेषज्ञ और सॉफ्टवेयर इंजीनियर",
+    "subtitle": "एआई, LLM और उपयोगकर्ता-केंद्रित डिज़ाइन को सहज इंजीनियरिंग समाधानों में एकीकृत करना",
+    "badges": {
+      "ai": "एआई एवं मशीन लर्निंग",
+      "ux": "UX डिज़ाइन",
+      "web": "वेब विकास",
+      "software": "सॉफ्टवेयर इंजीनियरिंग"
+    },
+    "buttons": {
+      "contact": "संपर्क करें",
+      "experience": "अनुभव देखें"
+    },
+    "imageAlt": "Josh Loughran"
+  },
+  "contactInfo": {
+    "location": "Cincinnati, OH 45245",
+    "email": "ContactJoshLoughran@gmail.com",
+    "phone": "(513) 400-5903",
+    "linkedin": "linkedin.com/in/josh-loughran/"
+  },
+  "experience": {
+    "title": "पेशेवर अनुभव",
+    "positions": [
+      {
+        "title": "सीनियर प्रोडक्ट डिजाइनर",
+        "company": "Siemens Digital Industries Software | Milford, OH",
+        "duration": "2018 – वर्तमान",
+        "bullets": [
+          "Siemens NX में एआई और LLM-आधारित क्षमताओं के साथ UX डिज़ाइन और एकीकरण का नेतृत्व करें, जिससे भविष्यवाणी विश्लेषण, स्वचालित कार्यप्रवाह और उपयोगकर्ता इंटरैक्शन में सुधार हो।",
+          "Transformers लाइब्रेरी और OpenAI API का उपयोग करते हुए एजेंट-चालित एप्लिकेशन विकसित करें, जिससे उत्पाद प्रबंधक की उत्पादकता और उपयोगकर्ता अनुसंधान ज्ञान साझा करने में सुधार हो।",
+          "क्लाउड/वेब एप्लिकेशन, समुद्री, तथा विद्युत एवं यांत्रिक रूटिंग समाधानों के लिए उत्पाद आवश्यकताओं और UX रणनीतियों को परिभाषित करें।",
+          "Figma डिज़ाइनों से इंटरैक्टिव मॉकअप्स, प्रोटोटाइप और कार्यात्मक विनिर्देश बनाएं, जो उपयोगकर्ता-केंद्रित डिज़ाइन और विकास प्रक्रियाओं के बीच सेतु का काम करें।",
+          "एजाइल उत्पाद विकास चक्र का प्रबंधन करें और टीम सहयोग को सुगम बनाकर निरंतर परिनियोजन एवं सुधार सुनिश्चित करें।",
+          "LLM के माध्यम से Siemens NX के उपयोगकर्ता-सामना करने वाले टेक्स्ट का स्वचालित निष्कर्षण और नियम-आधारित समीक्षा करें, जिससे मैनुअल समीक्षा समय में 30% से अधिक की कमी और घटना पकड़ दर में 20% से अधिक सुधार हो।"
+        ],
+        "logoAlt": "Siemens logo"
+      },
+      {
+        "title": "एप्लिकेशन इंजीनियर",
+        "company": "Siemens Digital Industries Software | Milford, OH",
+        "duration": "2014 – 2018",
+        "bullets": [
+          "Siemens NX Routing & Assemblies, Teamcenter, और Mentor Graphics Capital में स्वचालित परीक्षण प्रक्रियाएँ लागू की, जिससे उत्पाद की विश्वसनीयता में काफी सुधार हुआ।",
+          "QA प्रक्रियाओं में सुधार करते हुए हितधारकों के साथ संचार और जोखिमों का सक्रिय प्रबंधन किया।"
+        ],
+        "logoAlt": "Siemens logo"
+      },
+      {
+        "title": "इंजन डिजाइन इंजीनियर",
+        "company": "Honda R&D | Marysville, OH",
+        "duration": "2013 – 2014",
+        "bullets": [
+          "उच्च सुरक्षा, दक्षता और प्रदर्शन मानकों को पूरा करने वाले ईंधन प्रणाली घटकों का विकास किया।",
+          "विभिन्न विभागों के साथ सहयोग करके मजबूत इंजीनियरिंग परिणाम प्राप्त किए।"
+        ],
+        "logoAlt": "Honda logo"
       }
-    },
-    "hero": {
-      "title": "सीनियर UX विशेषज्ञ और सॉफ्टवेयर इंजीनियर",
-      "subtitle": "एआई, LLM और उपयोगकर्ता-केंद्रित डिज़ाइन को सहज इंजीनियरिंग समाधानों में एकीकृत करना",
-      "badges": {
-        "ai": "एआई एवं मशीन लर्निंग",
-        "ux": "UX डिज़ाइन",
-        "web": "वेब विकास",
-        "software": "सॉफ्टवेयर इंजीनियरिंग"
+    ]
+  },
+  "education": {
+    "title": "शिक्षा एवं प्रमाणपत्र",
+    "institutions": [
+      {
+        "degree": "बैचलर ऑफ साइंस, मैकेनिकल इंजीनियरिंग",
+        "school": "University of Cincinnati | Cincinnati, OH",
+        "duration": "2008 – 2013",
+        "bullets": [
+          "मैकेनिकल डिजाइन, कम्प्यूटेशनल विधियाँ और सिस्टम इंजीनियरिंग पर ध्यान केंद्रित किया।",
+          "को-ऑप प्रोग्राम में भाग लेकर उद्योग के नेताओं के साथ व्यावहारिक अनुभव प्राप्त किया।"
+        ],
+        "logoAlt": "University of Cincinnati logo"
       },
-      "buttons": {
-        "contact": "संपर्क करें",
-        "experience": "अनुभव देखें"
-      },
-      "imageAlt": "Josh Loughran"
-    },
-    "contactInfo": {
-      "location": "Cincinnati, OH 45245",
-      "email": "JoshLoughran1@gmail.com",
-      "phone": "(513) 293-3465",
-      "linkedin": "linkedin.com/in/josh-loughran/"
-    },
-    "experience": {
-      "title": "पेशेवर अनुभव",
-      "positions": [
-        {
-          "title": "सीनियर प्रोडक्ट डिजाइनर",
-          "company": "Siemens Digital Industries Software | Milford, OH",
-          "duration": "2018 – वर्तमान",
-          "bullets": [
-            "Siemens NX में एआई और LLM-आधारित क्षमताओं के साथ UX डिज़ाइन और एकीकरण का नेतृत्व करें, जिससे भविष्यवाणी विश्लेषण, स्वचालित कार्यप्रवाह और उपयोगकर्ता इंटरैक्शन में सुधार हो।",
-            "Transformers लाइब्रेरी और OpenAI API का उपयोग करते हुए एजेंट-चालित एप्लिकेशन विकसित करें, जिससे उत्पाद प्रबंधक की उत्पादकता और उपयोगकर्ता अनुसंधान ज्ञान साझा करने में सुधार हो।",
-            "क्लाउड/वेब एप्लिकेशन, समुद्री, तथा विद्युत एवं यांत्रिक रूटिंग समाधानों के लिए उत्पाद आवश्यकताओं और UX रणनीतियों को परिभाषित करें।",
-            "Figma डिज़ाइनों से इंटरैक्टिव मॉकअप्स, प्रोटोटाइप और कार्यात्मक विनिर्देश बनाएं, जो उपयोगकर्ता-केंद्रित डिज़ाइन और विकास प्रक्रियाओं के बीच सेतु का काम करें।",
-            "एजाइल उत्पाद विकास चक्र का प्रबंधन करें और टीम सहयोग को सुगम बनाकर निरंतर परिनियोजन एवं सुधार सुनिश्चित करें।",
-            "LLM के माध्यम से Siemens NX के उपयोगकर्ता-सामना करने वाले टेक्स्ट का स्वचालित निष्कर्षण और नियम-आधारित समीक्षा करें, जिससे मैनुअल समीक्षा समय में 30% से अधिक की कमी और घटना पकड़ दर में 20% से अधिक सुधार हो।"
-          ],
-          "logoAlt": "Siemens logo"
-        },
-        {
-          "title": "एप्लिकेशन इंजीनियर",
-          "company": "Siemens Digital Industries Software | Milford, OH",
-          "duration": "2014 – 2018",
-          "bullets": [
-            "Siemens NX Routing & Assemblies, Teamcenter, और Mentor Graphics Capital में स्वचालित परीक्षण प्रक्रियाएँ लागू की, जिससे उत्पाद की विश्वसनीयता में काफी सुधार हुआ।",
-            "QA प्रक्रियाओं में सुधार करते हुए हितधारकों के साथ संचार और जोखिमों का सक्रिय प्रबंधन किया।"
-          ],
-          "logoAlt": "Siemens logo"
-        },
-        {
-          "title": "इंजन डिजाइन इंजीनियर",
-          "company": "Honda R&D | Marysville, OH",
-          "duration": "2013 – 2014",
-          "bullets": [
-            "उच्च सुरक्षा, दक्षता और प्रदर्शन मानकों को पूरा करने वाले ईंधन प्रणाली घटकों का विकास किया।",
-            "विभिन्न विभागों के साथ सहयोग करके मजबूत इंजीनियरिंग परिणाम प्राप्त किए।"
-          ],
-          "logoAlt": "Honda logo"
-        }
-      ]
-    },
-    "education": {
-      "title": "शिक्षा एवं प्रमाणपत्र",
-      "institutions": [
-        {
-          "degree": "बैचलर ऑफ साइंस, मैकेनिकल इंजीनियरिंग",
-          "school": "University of Cincinnati | Cincinnati, OH",
-          "duration": "2008 – 2013",
-          "bullets": [
-            "मैकेनिकल डिजाइन, कम्प्यूटेशनल विधियाँ और सिस्टम इंजीनियरिंग पर ध्यान केंद्रित किया।",
-            "को-ऑप प्रोग्राम में भाग लेकर उद्योग के नेताओं के साथ व्यावहारिक अनुभव प्राप्त किया।"
-          ],
-          "logoAlt": "University of Cincinnati logo"
-        },
-        {
-          "degree": "SAFe® 5 Practitioner",
-          "school": "Scaled Agile, Inc.",
-          "duration": "2021 – वर्तमान",
-          "bullets": [
-            "एंटरप्राइज स्तर पर Lean-Agile सिद्धांतों और प्रथाओं को लागू करने में प्रमाणित।",
-            "एजाइल रिलीज ट्रेन में प्रोग्राम इन्क्रीमेंट की योजना बनाने और निष्पादित करने का अनुभव।"
-          ],
-          "logoAlt": "SAFe logo"
-        }
-      ]
-    },
-    "skills": {
-      "title": "तकनीकी कौशल",
-      "categories": {
-        "ai": {
-          "label": "एआई एवं मशीन लर्निंग",
-          "skills": ["AWS Bedrock", "Azure OpenAI", "Transformers", "CrewAI", "Prompt Design"]
-        },
-        "web": {
-          "label": "वेब विकास",
-          "skills": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Node.js"]
-        },
-        "programming": {
-          "label": "प्रोग्रामिंग",
-          "skills": ["Python", "C++", "MATLAB", "Visual Basic"]
-        },
-        "databases": {
-          "label": "डेटाबेस",
-          "skills": ["SQL", "MongoDB", "Chroma", "OpenSearch", "FAISS"]
-        },
-        "cloud": {
-          "label": "क्लाउड एवं DevOps",
-          "skills": ["AWS S3", "Docker", "Git", "CI/CD"]
-        },
-        "cad": {
-          "label": "CAD एवं सिमुलेशन",
-          "skills": ["Siemens NX", "Solidworks", "ANSYS", "CATIA", "AutoCAD"]
-        },
-        "ux": {
-          "label": "UI/UX टूल्स",
-          "skills": ["Figma", "Sketch", "Illustrator", "Lunacy"]
-        }
+      {
+        "degree": "SAFe® 5 Practitioner",
+        "school": "Scaled Agile, Inc.",
+        "duration": "2021 – वर्तमान",
+        "bullets": [
+          "एंटरप्राइज स्तर पर Lean-Agile सिद्धांतों और प्रथाओं को लागू करने में प्रमाणित।",
+          "एजाइल रिलीज ट्रेन में प्रोग्राम इन्क्रीमेंट की योजना बनाने और निष्पादित करने का अनुभव।"
+        ],
+        "logoAlt": "SAFe logo"
       }
-    },
-    "projects": {
-      "title": "परियोजनाएँ एवं योगदान",
-      "projectsList": [
-        {
-          "title": "स्टूडेंट ग्रुपिंग ऐप",
-          "description": "React और Node.js का उपयोग करके विकसित एक वेब एप्लिकेशन, जो शिक्षकों को कक्षाओं का प्रबंधन करने और संतुलित छात्र समूह बनाने में सक्षम बनाता है।",
-          "category": "वेब एप्लिकेशन",
-          "buttonText": "लाइव डेमो",
-          "imageAlt": "स्टूडेंट ग्रुपिंग ऐप",
-          "imageUrl": "/student-grouping-app-thumbnail.jpg"
-        },
-        {
-          "title": "Hummel Ultracruiser विमान",
-          "description": "अपने घरेलू वर्कशॉप में Hummel Ultracruiser विमान का निर्माण करते हुए, एयरोस्पेस नवाचार और व्यावहारिक इंजीनियरिंग के प्रति अपनी रुचि को उजागर करता है।",
-          "category": "व्यक्तिगत एयरोस्पेस परियोजना",
-          "buttonText": "अनुसरण करें",
-          "imageAlt": "Hummel Ultracruiser विमान",
-          "imageUrl": "/hummel-ultracruiser-thumbnail.jpg"
-        },
-        {
-          "title": "Siemens NX योगदान",
-          "description": "पेशेवर परियोजनाएँ",
-          "subProjects": [
-            {
-              "title": "समान चेहरे और किनारे का चयन",
-              "description": "NX की ज्यामिति पहचान का उपयोग करके समान गुणों (जैसे, समतल, बेलनाकार) वाले चेहरे या किनारों को तेजी से खोजें और समूहित करें, जिससे दोहराव वाले चयन कार्यों में समय की बचत हो।",
-              "linkText": "NX टिप्स & ट्रिक्स ब्लॉग में और पढ़ें",
-              "imageAlt": "समान चेहरे और किनारे का चयन",
-              "imageUrl": "/nx-select-similar-faces-thumbnail.png"
-            },
-            {
-              "title": "समान घटकों का चयन",
-              "description": "NX के चयन उपकरणों का उपयोग करके बड़े असेंबली में समान घटकों को स्वचालित रूप से समूहित करें, जिससे संपादन प्रक्रिया में कुशलता आती है।",
-              "imageAlt": "समान घटकों का चयन",
-              "videoId": "1ka_uD8LM80",
-              "thumbnailUrl": "https://img.youtube.com/vi/1ka_uD8LM80/hqdefault.jpg"
-            },
-            {
-              "title": "NX X Copilot चैट",
-              "description": "NX के भीतर रियल-टाइम अंतर्दृष्टि और संदर्भ सहायता के साथ एआई-संचालित डिज़ाइन सहायता का अनुभव करें।",
-              "imageAlt": "NX X Copilot चैट",
-              "videoId": "lk5VmsjtOns",
-              "thumbnailUrl": "https://img.youtube.com/vi/lk5VmsjtOns/hqdefault.jpg"
-            }
-          ]
-        }
-      ]
-    },
-    "volunteer": {
-      "title": "स्वयंसेवी एवं नेतृत्व",
-      "roles": [
-        {
-          "title": "STEM एम्बेसडर",
-          "organization": "Siemens",
-          "description": "STEM आउटरीच कार्यक्रमों और तकनीकों का प्रबंधन किया।"
-        },
-        {
-          "title": "सह-संस्थापक, 3D प्रिंटेड फेस शील्ड",
-          "organization": "COVID-19 Response",
-          "description": "COVID-19 महामारी के दौरान 5,000 फेस शील्ड का उत्पादन किया।"
-        },
-        {
-          "title": "इंजीनियर",
-          "organization": "Engineers Without Borders",
-          "description": "एक तंज़ानियाई समुदाय के लिए जल वितरण प्रणाली डिजाइन की।"
-        }
-      ]
-    },
-    "contact": {
-      "title": "संपर्क करें",
-      "contactInfoTitle": "संपर्क जानकारी",
-      "downloadResumeTitle": "मेरा रिज्यूम डाउनलोड करें",
-      "contactDetails": {
-        "email": "JoshLoughran1@gmail.com",
-        "phone": "(513) 293-3465",
-        "linkedin": "linkedin.com/in/josh-loughran/",
-        "github": "github.com/4eyedRaven"
+    ]
+  },
+  "skills": {
+    "title": "तकनीकी कौशल",
+    "categories": {
+      "ai": {
+        "label": "एआई एवं मशीन लर्निंग",
+        "skills": ["AWS Bedrock", "Azure OpenAI", "Transformers", "CrewAI", "Prompt Design"]
       },
-      "resumeText": "अपने पसंदीदा प्रारूप में मेरा रिज्यूम डाउनलोड करें:",
-      "resumeOptions": [
-        {
-          "format": "रिज्यूम - PDF प्रारूप",
-          "subText": "देखने के लिए सामान्य प्रारूप",
-          "link": "https://drive.google.com/file/d/1I4pO1uFQ6UYX9kbSmwvnwLEDFhWv791F/view?usp=sharing"
-        },
-        {
-          "format": "रिज्यूम - DOCX प्रारूप",
-          "subText": "MS Word के लिए संपादन योग्य प्रारूप",
-          "link": "https://docs.google.com/document/d/1LQh8thg99IcEKeRDE10bK-c3HePjEG1Y/edit?usp=sharing&ouid=109595031920595380639&rtpof=true&sd=true"
-        }
-      ]
-    },
-    "videoPlayer": {
-      "iframeTitle": "YouTube वीडियो प्लेयर"
-    },
-    "footer": {
-      "rights": "© {year} Josh Loughran. सर्वाधिकार सुरक्षित।",
-      "social": {
-        "email": "ईमेल",
-        "linkedin": "LinkedIn",
-        "github": "GitHub"
+      "web": {
+        "label": "वेब विकास",
+        "skills": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Node.js"]
+      },
+      "programming": {
+        "label": "प्रोग्रामिंग",
+        "skills": ["Python", "C++", "MATLAB", "Visual Basic"]
+      },
+      "databases": {
+        "label": "डेटाबेस",
+        "skills": ["SQL", "MongoDB", "Chroma", "OpenSearch", "FAISS"]
+      },
+      "cloud": {
+        "label": "क्लाउड एवं DevOps",
+        "skills": ["AWS S3", "Docker", "Git", "CI/CD"]
+      },
+      "cad": {
+        "label": "CAD एवं सिमुलेशन",
+        "skills": ["Siemens NX", "Solidworks", "ANSYS", "CATIA", "AutoCAD"]
+      },
+      "ux": {
+        "label": "UI/UX टूल्स",
+        "skills": ["Figma", "Sketch", "Illustrator", "Lunacy"]
       }
     }
+  },
+  "projects": {
+    "title": "परियोजनाएँ एवं योगदान",
+    "projectsList": [
+      {
+        "title": "Random Roster",
+        "description": "React और Node.js का उपयोग करके विकसित एक वेब एप्लिकेशन, जो शिक्षकों को कक्षाओं का प्रबंधन करने और संतुलित, यादृच्छिक छात्र समूह बनाने में सक्षम बनाता है।",
+        "category": "वेब एप्लिकेशन",
+        "buttonText": "Random Roster देखें",
+        "imageAlt": "Random Roster",
+        "imageUrl": "/student-grouping-app-thumbnail.jpg"
+      },
+      {
+        "title": "Hummel Ultracruiser विमान",
+        "description": "अपने घरेलू वर्कशॉप में Hummel Ultracruiser विमान का निर्माण करते हुए, एयरोस्पेस नवाचार और व्यावहारिक इंजीनियरिंग के प्रति अपनी रुचि को उजागर करता है।",
+        "category": "व्यक्तिगत एयरोस्पेस परियोजना",
+        "buttonText": "अनुसरण करें",
+        "imageAlt": "Hummel Ultracruiser विमान",
+        "imageUrl": "/hummel-ultracruiser-thumbnail.jpg"
+      },
+      {
+        "title": "Siemens NX योगदान",
+        "description": "पेशेवर परियोजनाएँ",
+        "subProjects": [
+          {
+            "title": "समान चेहरे और किनारे का चयन",
+            "description": "NX की ज्यामिति पहचान का उपयोग करके समान गुणों (जैसे, समतल, बेलनाकार) वाले चेहरे या किनारों को तेजी से खोजें और समूहित करें, जिससे दोहराव वाले चयन कार्यों में समय की बचत हो।",
+            "linkText": "NX टिप्स & ट्रिक्स ब्लॉग में और पढ़ें",
+            "imageAlt": "समान चेहरे और किनारे का चयन",
+            "imageUrl": "/nx-select-similar-faces-thumbnail.png"
+          },
+          {
+            "title": "समान घटकों का चयन",
+            "description": "NX के चयन उपकरणों का उपयोग करके बड़े असेंबली में समान घटकों को स्वचालित रूप से समूहित करें, जिससे संपादन प्रक्रिया में कुशलता आती है।",
+            "imageAlt": "समान घटकों का चयन",
+            "videoId": "1ka_uD8LM80",
+            "thumbnailUrl": "https://img.youtube.com/vi/1ka_uD8LM80/hqdefault.jpg"
+          },
+          {
+            "title": "NX X Copilot चैट",
+            "description": "NX के भीतर रियल-टाइम अंतर्दृष्टि और संदर्भ सहायता के साथ एआई-संचालित डिज़ाइन सहायता का अनुभव करें।",
+            "imageAlt": "NX X Copilot चैट",
+            "videoId": "lk5VmsjtOns",
+            "thumbnailUrl": "https://img.youtube.com/vi/lk5VmsjtOns/hqdefault.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "volunteer": {
+    "title": "स्वयंसेवी एवं नेतृत्व",
+    "roles": [
+      {
+        "title": "STEM एम्बेसडर",
+        "organization": "Siemens",
+        "description": "STEM आउटरीच कार्यक्रमों और तकनीकों का प्रबंधन किया।"
+      },
+      {
+        "title": "सह-संस्थापक, 3D प्रिंटेड फेस शील्ड",
+        "organization": "COVID-19 Response",
+        "description": "COVID-19 महामारी के दौरान 5,000 फेस शील्ड का उत्पादन किया।"
+      },
+      {
+        "title": "इंजीनियर",
+        "organization": "Engineers Without Borders",
+        "description": "एक तंज़ानियाई समुदाय के लिए जल वितरण प्रणाली डिजाइन की।"
+      }
+    ]
+  },
+  "contact": {
+    "title": "संपर्क करें",
+    "contactInfoTitle": "संपर्क जानकारी",
+    "downloadResumeTitle": "मेरा रिज्यूम डाउनलोड करें",
+    "contactDetails": {
+      "email": "ContactJoshLoughran@gmail.com",
+      "phone": "(513) 400-5903",
+      "linkedin": "linkedin.com/in/josh-loughran/",
+      "github": "github.com/4eyedRaven"
+    },
+    "resumeText": "अपने पसंदीदा प्रारूप में मेरा रिज्यूम डाउनलोड करें:",
+    "resumeOptions": [
+      {
+        "format": "रिज्यूम - PDF प्रारूप",
+        "subText": "देखने के लिए सामान्य प्रारूप",
+        "link": "https://drive.google.com/file/d/1I4pO1uFQ6UYX9kbSmwvnwLEDFhWv791F/view?usp=sharing"
+      },
+      {
+        "format": "रिज्यूम - DOCX प्रारूप",
+        "subText": "MS Word के लिए संपादन योग्य प्रारूप",
+        "link": "https://docs.google.com/document/d/1LQh8thg99IcEKeRDE10bK-c3HePjEG1Y/edit?usp=sharing&ouid=109595031920595380639&rtpof=true&sd=true"
+      }
+    ]
+  },
+  "videoPlayer": {
+    "iframeTitle": "YouTube वीडियो प्लेयर"
+  },
+  "footer": {
+    "rights": "© {year} Josh Loughran. सर्वाधिकार सुरक्षित।",
+    "social": {
+      "email": "ईमेल",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
   }
+}

@@ -516,18 +516,15 @@ export default function HomeClient({ initialLang }: { initialLang: string }) {
                       <CardContent className="flex-1">
                         <p className="mb-4">{project.description}</p>
                         <Button variant="outline" asChild>
-                          <Link
-                            href={
-                              project.title === "Student Grouping App" ||
-                              project.title === "Aplicación de Agrupación de Estudiantes" ||
-                              project.title === "Applicazione di Raggruppamento Studentesco" ||
-                              project.title === "Application de Groupement d'Étudiants"
-                                ? "http://student-grouper.vercel.app"
-                                : "https://www.youtube.com/@Joshmakes"
-                            }
-                          >
-                            {project.buttonText}
-                          </Link>
+                        <Link
+                          href={
+                            project.title === "Random Roster"
+                              ? "https://randomroster.com"
+                              : "https://www.youtube.com/@Joshmakes"
+                          }
+                        >
+                          {project.buttonText}
+                        </Link>
                         </Button>
                       </CardContent>
                     </Card>

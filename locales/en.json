@@ -27,8 +27,8 @@
     },
     "contactInfo": {
       "location": "Cincinnati, OH 45245",
-      "email": "JoshLoughran1@gmail.com",
-      "phone": "(513) 293-3465",
+      "email": "ContactJoshLoughran@gmail.com",
+      "phone": "(513) 400-5903",
       "linkedin": "linkedin.com/in/josh-loughran/"
     },
     "experience": {
@@ -132,11 +132,11 @@
       "title": "Projects & Contributions",
       "projectsList": [
         {
-          "title": "Student Grouping App",
+          "title": "Random Roster",
           "description": "Developed a web application using React and Node.js, enabling educators to manage classes and generate balanced student groups.",
           "category": "Web Application",
-          "buttonText": "Live Demo",
-          "imageAlt": "Student Grouping App",
+          "buttonText": "Visit Random Roster",
+          "imageAlt": "Random Roster",
           "imageUrl": "/student-grouping-app-thumbnail.jpg"
         },
         {
@@ -201,8 +201,8 @@
       "contactInfoTitle": "Contact Information",
       "downloadResumeTitle": "Download My Resume",
       "contactDetails": {
-        "email": "JoshLoughran1@gmail.com",
-        "phone": "(513) 293-3465",
+        "email": "ContactJoshLoughran@gmail.com",
+        "phone": "(513) 400-5903",
         "linkedin": "linkedin.com/in/josh-loughran/",
         "github": "github.com/4eyedRaven"
       },

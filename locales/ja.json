@@ -1,234 +1,234 @@
 {
-    "header": {
-      "title": "Josh Loughran",
-      "nav": {
-        "about": "概要",
-        "experience": "経歴",
-        "education": "教育",
-        "skills": "スキル",
-        "projects": "プロジェクト",
-        "contact": "連絡先"
+  "header": {
+    "title": "Josh Loughran",
+    "nav": {
+      "about": "概要",
+      "experience": "経歴",
+      "education": "教育",
+      "skills": "スキル",
+      "projects": "プロジェクト",
+      "contact": "連絡先"
+    }
+  },
+  "hero": {
+    "title": "シニアUXエキスパート＆ソフトウェアエンジニア",
+    "subtitle": "AI、LLM、ユーザー中心のデザインを直感的なエンジニアリングソリューションに統合",
+    "badges": {
+      "ai": "AI＆機械学習",
+      "ux": "UXデザイン",
+      "web": "ウェブ開発",
+      "software": "ソフトウェアエンジニアリング"
+    },
+    "buttons": {
+      "contact": "お問い合わせ",
+      "experience": "経歴を見る"
+    },
+    "imageAlt": "Josh Loughran"
+  },
+  "contactInfo": {
+    "location": "Cincinnati, OH 45245",
+    "email": "ContactJoshLoughran@gmail.com",
+    "phone": "(513) 400-5903",
+    "linkedin": "linkedin.com/in/josh-loughran/"
+  },
+  "experience": {
+    "title": "職務経験",
+    "positions": [
+      {
+        "title": "シニアプロダクトデザイナー",
+        "company": "Siemens Digital Industries Software | Milford, OH",
+        "duration": "2018 – 現在",
+        "bullets": [
+          "Siemens NXのUXデザインとAIおよびLLM機能の統合をリードし、予測分析、ワークフローの自動化、ユーザーインタラクションを向上させる。",
+          "TransformersライブラリとOpenAI APIを使用して、プロダクトマネージャーの生産性とユーザーリサーチの知識共有を強化するエージェント駆動型アプリケーションを開発する。",
+          "クラウド/ウェブアプリ、海事、電気・機械ルーティングソリューションのためのプロダクト要件とUX戦略を定義する。",
+          "Figmaのデザインからインタラクティブなモックアップ、プロトタイプ、機能仕様を作成し、ユーザー中心のデザインと開発プロセスを効果的に統合する。",
+          "アジャイルなプロダクト開発サイクルを管理し、継続的なデプロイと改善のためにチームコラボレーションを促進する。",
+          "LLMを用いたルールベースのテキスト抽出とレビューにより、Siemens NX内のユーザー向けテキストの手動レビュー時間を30%以上削減し、インシデント検出率を20%以上向上させた。"
+        ],
+        "logoAlt": "Siemens logo"
+      },
+      {
+        "title": "アプリケーションエンジニア",
+        "company": "Siemens Digital Industries Software | Milford, OH",
+        "duration": "2014 – 2018",
+        "bullets": [
+          "Siemens NXのルーティングおよびアセンブリ、Teamcenter、Mentor Graphics Capitalにおける自動化テスト手法を実施し、製品信頼性を大幅に向上させた。",
+          "品質保証プロセスを改善し、ステークホルダーとのコミュニケーションとリスク管理を積極的に実施した。"
+        ],
+        "logoAlt": "Siemens logo"
+      },
+      {
+        "title": "エンジン設計エンジニア",
+        "company": "Honda R&D | Marysville, OH",
+        "duration": "2013 – 2014",
+        "bullets": [
+          "安全性、効率、性能の高い基準を満たす燃料システムコンポーネントを開発した。",
+          "部門横断で協力し、堅牢なエンジニアリング成果を達成した。"
+        ],
+        "logoAlt": "Honda logo"
       }
-    },
-    "hero": {
-      "title": "シニアUXエキスパート＆ソフトウェアエンジニア",
-      "subtitle": "AI、LLM、ユーザー中心のデザインを直感的なエンジニアリングソリューションに統合",
-      "badges": {
-        "ai": "AI＆機械学習",
-        "ux": "UXデザイン",
-        "web": "ウェブ開発",
-        "software": "ソフトウェアエンジニアリング"
+    ]
+  },
+  "education": {
+    "title": "教育と認定",
+    "institutions": [
+      {
+        "degree": "理学士, 機械工学",
+        "school": "University of Cincinnati | Cincinnati, OH",
+        "duration": "2008 – 2013",
+        "bullets": [
+          "機械設計、計算手法、システム工学に注力",
+          "業界のリーダーとの協働プログラムに参加し、実務経験を獲得"
+        ],
+        "logoAlt": "University of Cincinnati logo"
       },
-      "buttons": {
-        "contact": "お問い合わせ",
-        "experience": "経歴を見る"
-      },
-      "imageAlt": "Josh Loughran"
-    },
-    "contactInfo": {
-      "location": "Cincinnati, OH 45245",
-      "email": "JoshLoughran1@gmail.com",
-      "phone": "(513) 293-3465",
-      "linkedin": "linkedin.com/in/josh-loughran/"
-    },
-    "experience": {
-      "title": "職務経験",
-      "positions": [
-        {
-          "title": "シニアプロダクトデザイナー",
-          "company": "Siemens Digital Industries Software | Milford, OH",
-          "duration": "2018 – 現在",
-          "bullets": [
-            "Siemens NXのUXデザインとAIおよびLLM機能の統合をリードし、予測分析、ワークフローの自動化、ユーザーインタラクションを向上させる。",
-            "TransformersライブラリとOpenAI APIを使用して、プロダクトマネージャーの生産性とユーザーリサーチの知識共有を強化するエージェント駆動型アプリケーションを開発する。",
-            "クラウド/ウェブアプリ、海事、電気・機械ルーティングソリューションのためのプロダクト要件とUX戦略を定義する。",
-            "Figmaのデザインからインタラクティブなモックアップ、プロトタイプ、機能仕様を作成し、ユーザー中心のデザインと開発プロセスを効果的に統合する。",
-            "アジャイルなプロダクト開発サイクルを管理し、継続的なデプロイと改善のためにチームコラボレーションを促進する。",
-            "LLMを用いたルールベースのテキスト抽出とレビューにより、Siemens NX内のユーザー向けテキストの手動レビュー時間を30%以上削減し、インシデント検出率を20%以上向上させた。"
-          ],
-          "logoAlt": "Siemens logo"
-        },
-        {
-          "title": "アプリケーションエンジニア",
-          "company": "Siemens Digital Industries Software | Milford, OH",
-          "duration": "2014 – 2018",
-          "bullets": [
-            "Siemens NXのルーティングおよびアセンブリ、Teamcenter、Mentor Graphics Capitalにおける自動化テスト手法を実施し、製品信頼性を大幅に向上させた。",
-            "品質保証プロセスを改善し、ステークホルダーとのコミュニケーションとリスク管理を積極的に実施した。"
-          ],
-          "logoAlt": "Siemens logo"
-        },
-        {
-          "title": "エンジン設計エンジニア",
-          "company": "Honda R&D | Marysville, OH",
-          "duration": "2013 – 2014",
-          "bullets": [
-            "安全性、効率、性能の高い基準を満たす燃料システムコンポーネントを開発した。",
-            "部門横断で協力し、堅牢なエンジニアリング成果を達成した。"
-          ],
-          "logoAlt": "Honda logo"
-        }
-      ]
-    },
-    "education": {
-      "title": "教育と認定",
-      "institutions": [
-        {
-          "degree": "理学士, 機械工学",
-          "school": "University of Cincinnati | Cincinnati, OH",
-          "duration": "2008 – 2013",
-          "bullets": [
-            "機械設計、計算手法、システム工学に注力",
-            "業界のリーダーとの協働プログラムに参加し、実務経験を獲得"
-          ],
-          "logoAlt": "University of Cincinnati logo"
-        },
-        {
-          "degree": "SAFe® 5 プラクティショナー",
-          "school": "Scaled Agile, Inc.",
-          "duration": "2021 – 現在",
-          "bullets": [
-            "企業全体でLean-Agile原則と実践を適用する認定を取得",
-            "アジャイルリリーストレイン内でのプログラムインクリメントの計画と実行に精通"
-          ],
-          "logoAlt": "SAFe logo"
-        }
-      ]
-    },
-    "skills": {
-      "title": "技術スキル",
-      "categories": {
-        "ai": {
-          "label": "AI＆機械学習",
-          "skills": ["AWS Bedrock", "Azure OpenAI", "Transformers", "CrewAI", "Prompt Design"]
-        },
-        "web": {
-          "label": "ウェブ開発",
-          "skills": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Node.js"]
-        },
-        "programming": {
-          "label": "プログラミング",
-          "skills": ["Python", "C++", "MATLAB", "Visual Basic"]
-        },
-        "databases": {
-          "label": "データベース",
-          "skills": ["SQL", "MongoDB", "Chroma", "OpenSearch", "FAISS"]
-        },
-        "cloud": {
-          "label": "クラウド＆DevOps",
-          "skills": ["AWS S3", "Docker", "Git", "CI/CD"]
-        },
-        "cad": {
-          "label": "CAD＆シミュレーション",
-          "skills": ["Siemens NX", "Solidworks", "ANSYS", "CATIA", "AutoCAD"]
-        },
-        "ux": {
-          "label": "UI/UXツール",
-          "skills": ["Figma", "Sketch", "Illustrator", "Lunacy"]
-        }
+      {
+        "degree": "SAFe® 5 プラクティショナー",
+        "school": "Scaled Agile, Inc.",
+        "duration": "2021 – 現在",
+        "bullets": [
+          "エンタープライズレベルでLean-Agile原則と実践を適用する認定を取得",
+          "アジャイルリリーストレイン内でのプログラムインクリメントの計画と実行に精通"
+        ],
+        "logoAlt": "SAFe logo"
       }
-    },
-    "projects": {
-      "title": "プロジェクト＆貢献",
-      "projectsList": [
-        {
-          "title": "学生グループアプリ",
-          "description": "ReactとNode.jsを使用して開発されたウェブアプリで、教育者がクラス管理とバランスの取れた学生グループの作成を支援する。",
-          "category": "ウェブアプリケーション",
-          "buttonText": "ライブデモ",
-          "imageAlt": "学生グループアプリ",
-          "imageUrl": "/student-grouping-app-thumbnail.jpg"
-        },
-        {
-          "title": "Hummel Ultracruiser 飛行機",
-          "description": "自宅のワークショップでHummel Ultracruiser 飛行機の製作に取り組み、航空革新と実践的な工学への情熱を追求している。",
-          "category": "個人航空プロジェクト",
-          "buttonText": "フォローする",
-          "imageAlt": "Hummel Ultracruiser 飛行機",
-          "imageUrl": "/hummel-ultracruiser-thumbnail.jpg"
-        },
-        {
-          "title": "Siemens NXへの貢献",
-          "description": "プロフェッショナルプロジェクト",
-          "subProjects": [
-            {
-              "title": "類似する面とエッジの選択",
-              "description": "NXのジオメトリ認識機能を利用して、平面や円筒形などの類似特性を持つ面やエッジを迅速に見つけ、グループ化することで、繰り返しの選択作業を削減する。",
-              "linkText": "NX Tips & Tricksブログで詳細を読む",
-              "imageAlt": "類似する面とエッジの選択",
-              "imageUrl": "/nx-select-similar-faces-thumbnail.png"
-            },
-            {
-              "title": "類似するコンポーネントの選択",
-              "description": "NXの選択ツールを使用して、大規模アセンブリ内の類似コンポーネントを自動でグループ化し、効率的な編集を実現する。",
-              "imageAlt": "類似するコンポーネントの選択",
-              "videoId": "1ka_uD8LM80",
-              "thumbnailUrl": "https://img.youtube.com/vi/1ka_uD8LM80/hqdefault.jpg"
-            },
-            {
-              "title": "NX X Copilotチャット",
-              "description": "NX内でリアルタイムの洞察と文脈に応じた支援を提供するAI搭載のデザインアシスタンスを体験する。",
-              "imageAlt": "NX X Copilotチャット",
-              "videoId": "lk5VmsjtOns",
-              "thumbnailUrl": "https://img.youtube.com/vi/lk5VmsjtOns/hqdefault.jpg"
-            }
-          ]
-        }
-      ]
-    },
-    "volunteer": {
-      "title": "ボランティア＆リーダーシップ",
-      "roles": [
-        {
-          "title": "STEMアンバサダー",
-          "organization": "Siemens",
-          "description": "STEM普及プログラムと技術の指導を担当"
-        },
-        {
-          "title": "共同創業者、3Dプリントフェイスシールド",
-          "organization": "COVID-19 Response",
-          "description": "COVID-19パンデミック中に5000個のフェイスシールドを製造"
-        },
-        {
-          "title": "エンジニア",
-          "organization": "Engineers Without Borders",
-          "description": "タンザニアのコミュニティ向けに給水システムを設計"
-        }
-      ]
-    },
-    "contact": {
-      "title": "お問い合わせ",
-      "contactInfoTitle": "連絡先情報",
-      "downloadResumeTitle": "履歴書をダウンロード",
-      "contactDetails": {
-        "email": "JoshLoughran1@gmail.com",
-        "phone": "(513) 293-3465",
-        "linkedin": "linkedin.com/in/josh-loughran/",
-        "github": "github.com/4eyedRaven"
+    ]
+  },
+  "skills": {
+    "title": "技術スキル",
+    "categories": {
+      "ai": {
+        "label": "AI＆機械学習",
+        "skills": ["AWS Bedrock", "Azure OpenAI", "Transformers", "CrewAI", "Prompt Design"]
       },
-      "resumeText": "お好みの形式で履歴書をダウンロードしてください：",
-      "resumeOptions": [
-        {
-          "format": "履歴書 - PDF形式",
-          "subText": "閲覧用汎用フォーマット",
-          "link": "https://drive.google.com/file/d/1I4pO1uFQ6UYX9kbSmwvnwLEDFhWv791F/view?usp=sharing"
-        },
-        {
-          "format": "履歴書 - DOCX形式",
-          "subText": "MS Word用編集可能フォーマット",
-          "link": "https://docs.google.com/document/d/1LQh8thg99IcEKeRDE10bK-c3HePjEG1Y/edit?usp=sharing&ouid=109595031920595380639&rtpof=true&sd=true"
-        }
-      ]
-    },
-    "videoPlayer": {
-      "iframeTitle": "YouTubeビデオプレーヤー"
-    },
-    "footer": {
-      "rights": "© {year} Josh Loughran. 全著作権所有.",
-      "social": {
-        "email": "メール",
-        "linkedin": "LinkedIn",
-        "github": "GitHub"
+      "web": {
+        "label": "ウェブ開発",
+        "skills": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Node.js"]
+      },
+      "programming": {
+        "label": "プログラミング",
+        "skills": ["Python", "C++", "MATLAB", "Visual Basic"]
+      },
+      "databases": {
+        "label": "データベース",
+        "skills": ["SQL", "MongoDB", "Chroma", "OpenSearch", "FAISS"]
+      },
+      "cloud": {
+        "label": "クラウド＆DevOps",
+        "skills": ["AWS S3", "Docker", "Git", "CI/CD"]
+      },
+      "cad": {
+        "label": "CAD＆シミュレーション",
+        "skills": ["Siemens NX", "Solidworks", "ANSYS", "CATIA", "AutoCAD"]
+      },
+      "ux": {
+        "label": "UI/UXツール",
+        "skills": ["Figma", "Sketch", "Illustrator", "Lunacy"]
       }
     }
+  },
+  "projects": {
+    "title": "プロジェクト＆貢献",
+    "projectsList": [
+      {
+        "title": "Random Roster",
+        "description": "ReactとNode.jsを使用して開発されたウェブアプリケーションで、教育者がクラスを管理し、バランスの取れたランダムな学生グループを生成できるようにする。",
+        "category": "ウェブアプリケーション",
+        "buttonText": "Random Roster を訪問",
+        "imageAlt": "Random Roster",
+        "imageUrl": "/student-grouping-app-thumbnail.jpg"
+      },
+      {
+        "title": "Hummel Ultracruiser 飛行機",
+        "description": "自宅のワークショップでHummel Ultracruiser 飛行機の製作に取り組み、航空革新と実践的な工学への情熱を追求している。",
+        "category": "個人航空プロジェクト",
+        "buttonText": "フォローする",
+        "imageAlt": "Hummel Ultracruiser 飛行機",
+        "imageUrl": "/hummel-ultracruiser-thumbnail.jpg"
+      },
+      {
+        "title": "Siemens NXへの貢献",
+        "description": "プロフェッショナルプロジェクト",
+        "subProjects": [
+          {
+            "title": "類似する面とエッジの選択",
+            "description": "NXのジオメトリ認識機能を利用して、平面や円筒形などの類似特性を持つ面やエッジを迅速に見つけ、グループ化することで、繰り返しの選択作業を削減する。",
+            "linkText": "NX Tips & Tricksブログで詳細を読む",
+            "imageAlt": "類似する面とエッジの選択",
+            "imageUrl": "/nx-select-similar-faces-thumbnail.png"
+          },
+          {
+            "title": "類似するコンポーネントの選択",
+            "description": "NXの選択ツールを使用して、大規模アセンブリ内の類似コンポーネントを自動でグループ化し、効率的な編集を実現する。",
+            "imageAlt": "類似するコンポーネントの選択",
+            "videoId": "1ka_uD8LM80",
+            "thumbnailUrl": "https://img.youtube.com/vi/1ka_uD8LM80/hqdefault.jpg"
+          },
+          {
+            "title": "NX X Copilotチャット",
+            "description": "NX内でリアルタイムの洞察と文脈に応じた支援を提供するAI搭載のデザインアシスタンスを体験する。",
+            "imageAlt": "NX X Copilotチャット",
+            "videoId": "lk5VmsjtOns",
+            "thumbnailUrl": "https://img.youtube.com/vi/lk5VmsjtOns/hqdefault.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "volunteer": {
+    "title": "ボランティア＆リーダーシップ",
+    "roles": [
+      {
+        "title": "STEMアンバサダー",
+        "organization": "Siemens",
+        "description": "STEM普及プログラムと技術の指導を担当"
+      },
+      {
+        "title": "共同創業者、3Dプリントフェイスシールド",
+        "organization": "COVID-19 Response",
+        "description": "COVID-19パンデミック中に5000個のフェイスシールドを製作"
+      },
+      {
+        "title": "エンジニア",
+        "organization": "Engineers Without Borders",
+        "description": "タンザニアのコミュニティ向けに給水システムを設計"
+      }
+    ]
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "contactInfoTitle": "連絡先情報",
+    "downloadResumeTitle": "履歴書をダウンロード",
+    "contactDetails": {
+      "email": "ContactJoshLoughran@gmail.com",
+      "phone": "(513) 400-5903",
+      "linkedin": "linkedin.com/in/josh-loughran/",
+      "github": "github.com/4eyedRaven"
+    },
+    "resumeText": "お好みの形式で履歴書をダウンロードしてください：",
+    "resumeOptions": [
+      {
+        "format": "履歴書 - PDF形式",
+        "subText": "閲覧用汎用フォーマット",
+        "link": "https://drive.google.com/file/d/1I4pO1uFQ6UYX9kbSmwvnwLEDFhWv791F/view?usp=sharing"
+      },
+      {
+        "format": "履歴書 - DOCX形式",
+        "subText": "MS Word用編集可能フォーマット",
+        "link": "https://docs.google.com/document/d/1LQh8thg99IcEKeRDE10bK-c3HePjEG1Y/edit?usp=sharing&ouid=109595031920595380639&rtpof=true&sd=true"
+      }
+    ]
+  },
+  "videoPlayer": {
+    "iframeTitle": "YouTubeビデオプレーヤー"
+  },
+  "footer": {
+    "rights": "© {year} Josh Loughran. 全著作権所有.",
+    "social": {
+      "email": "メール",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
   }
+}
