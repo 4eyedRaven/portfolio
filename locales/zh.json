@@ -1,0 +1,234 @@
+{
+    "header": {
+      "title": "Josh Loughran",
+      "nav": {
+        "about": "关于",
+        "experience": "经历",
+        "education": "教育",
+        "skills": "技能",
+        "projects": "项目",
+        "contact": "联系"
+      }
+    },
+    "hero": {
+      "title": "高级UX专家 & 软件工程师",
+      "subtitle": "将人工智能、语言模型与以用户为中心的设计融入直观的工程解决方案",
+      "badges": {
+        "ai": "AI与机器学习",
+        "ux": "UX设计",
+        "web": "网页开发",
+        "software": "软件工程"
+      },
+      "buttons": {
+        "contact": "联系我",
+        "experience": "查看经历"
+      },
+      "imageAlt": "Josh Loughran"
+    },
+    "contactInfo": {
+      "location": "辛辛那提, OH 45245",
+      "email": "JoshLoughran1@gmail.com",
+      "phone": "(513) 293-3465",
+      "linkedin": "linkedin.com/in/josh-loughran/"
+    },
+    "experience": {
+      "title": "工作经历",
+      "positions": [
+        {
+          "title": "高级产品设计师",
+          "company": "Siemens Digital Industries Software | Milford, OH",
+          "duration": "2018 – 至今",
+          "bullets": [
+            "领导Siemens NX的UX设计及整合AI和语言模型功能，提高预测分析、自动化工作流程和用户交互。",
+            "使用Transformers库和OpenAI API开发代理驱动的应用程序，提升产品经理（PM）的生产效率和用户研究知识共享。",
+            "为云/网页应用、海事以及电气和机械路由解决方案定义产品需求和UX策略。",
+            "从Figma设计中创建互动模型、原型和功能规范，有效连接以用户为中心的设计和开发流程。",
+            "管理敏捷产品开发周期并促进团队协作，实现持续部署和改进。",
+            "通过LLM自动提取和基于规则审核Siemens NX中的面向用户文本，减少超过30%的人工审核时间，并提高20%以上的问题检测率。"
+          ],
+          "logoAlt": "Siemens logo"
+        },
+        {
+          "title": "应用工程师",
+          "company": "Siemens Digital Industries Software | Milford, OH",
+          "duration": "2014 – 2018",
+          "bullets": [
+            "自动化测试Siemens NX路由和装配、Teamcenter以及Mentor Graphics Capital的流程，显著提高产品可靠性。",
+            "改进了质量保证流程，并主动管理了利益相关者沟通和风险。"
+          ],
+          "logoAlt": "Siemens logo"
+        },
+        {
+          "title": "发动机设计工程师",
+          "company": "Honda R&D | Marysville, OH",
+          "duration": "2013 – 2014",
+          "bullets": [
+            "开发满足高安全性、效率和性能标准的燃油系统组件。",
+            "跨部门合作以达成稳健的工程成果。"
+          ],
+          "logoAlt": "Honda logo"
+        }
+      ]
+    },
+    "education": {
+      "title": "教育与认证",
+      "institutions": [
+        {
+          "degree": "理学学士, 机械工程",
+          "school": "辛辛那提大学 | 辛辛那提, OH",
+          "duration": "2008 – 2013",
+          "bullets": [
+            "专注于机械设计、计算方法和系统工程。",
+            "参与合作项目，获得与行业领袖的实践经验。"
+          ],
+          "logoAlt": "University of Cincinnati logo"
+        },
+        {
+          "degree": "SAFe® 5 实践者",
+          "school": "Scaled Agile, Inc.",
+          "duration": "2021 – 至今",
+          "bullets": [
+            "认证掌握企业级Lean-Agile原则和实践。",
+            "在敏捷发布列车中规划和执行项目迭代方面经验丰富。"
+          ],
+          "logoAlt": "SAFe logo"
+        }
+      ]
+    },
+    "skills": {
+      "title": "技术技能",
+      "categories": {
+        "ai": {
+          "label": "AI与机器学习",
+          "skills": ["AWS Bedrock", "Azure OpenAI", "Transformers", "CrewAI", "Prompt Design"]
+        },
+        "web": {
+          "label": "网页开发",
+          "skills": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Node.js"]
+        },
+        "programming": {
+          "label": "编程",
+          "skills": ["Python", "C++", "MATLAB", "Visual Basic"]
+        },
+        "databases": {
+          "label": "数据库",
+          "skills": ["SQL", "MongoDB", "Chroma", "OpenSearch", "FAISS"]
+        },
+        "cloud": {
+          "label": "云与DevOps",
+          "skills": ["AWS S3", "Docker", "Git", "CI/CD"]
+        },
+        "cad": {
+          "label": "CAD与仿真",
+          "skills": ["Siemens NX", "Solidworks", "ANSYS", "CATIA", "AutoCAD"]
+        },
+        "ux": {
+          "label": "UI/UX工具",
+          "skills": ["Figma", "Sketch", "Illustrator", "Lunacy"]
+        }
+      }
+    },
+    "projects": {
+      "title": "项目与贡献",
+      "projectsList": [
+        {
+          "title": "学生分组应用",
+          "description": "使用React和Node.js开发的网页应用，帮助教育者管理班级并生成平衡的学生小组。",
+          "category": "网页应用",
+          "buttonText": "在线演示",
+          "imageAlt": "学生分组应用",
+          "imageUrl": "/student-grouping-app-thumbnail.jpg"
+        },
+        {
+          "title": "Hummel Ultracruiser 飞机",
+          "description": "在个人工作室中积极建造Hummel Ultracruiser飞机，探索航空创新与实践工程的热情。",
+          "category": "个人航空项目",
+          "buttonText": "关注我",
+          "imageAlt": "Hummel Ultracruiser 飞机",
+          "imageUrl": "/hummel-ultracruiser-thumbnail.jpg"
+        },
+        {
+          "title": "Siemens NX 贡献",
+          "description": "专业项目",
+          "subProjects": [
+            {
+              "title": "选择相似面与边",
+              "description": "利用NX的几何识别功能快速找到并分组具有相似属性（例如平面、圆柱形）的面或边，节省重复选择任务的时间。",
+              "linkText": "在NX技巧博客中了解更多",
+              "imageAlt": "选择相似面与边",
+              "imageUrl": "/nx-select-similar-faces-thumbnail.png"
+            },
+            {
+              "title": "选择相似组件",
+              "description": "利用NX的选择工具在大型装配中自动分组相似组件，实现高效编辑。",
+              "imageAlt": "选择相似组件",
+              "videoId": "1ka_uD8LM80",
+              "thumbnailUrl": "https://img.youtube.com/vi/1ka_uD8LM80/hqdefault.jpg"
+            },
+            {
+              "title": "NX X Copilot 聊天",
+              "description": "体验内嵌于NX中的AI设计辅助，提供实时洞察和上下文帮助。",
+              "imageAlt": "NX X Copilot 聊天",
+              "videoId": "lk5VmsjtOns",
+              "thumbnailUrl": "https://img.youtube.com/vi/lk5VmsjtOns/hqdefault.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    "volunteer": {
+      "title": "志愿与领导",
+      "roles": [
+        {
+          "title": "STEM大使",
+          "organization": "Siemens",
+          "description": "领导STEM推广项目与技术。"
+        },
+        {
+          "title": "联合创始人, 3D打印面罩",
+          "organization": "COVID-19 应对",
+          "description": "在COVID-19疫情期间生产了5000个面罩。"
+        },
+        {
+          "title": "工程师",
+          "organization": "Engineers Without Borders",
+          "description": "为坦桑尼亚社区设计供水系统。"
+        }
+      ]
+    },
+    "contact": {
+      "title": "联系我",
+      "contactInfoTitle": "联系信息",
+      "downloadResumeTitle": "下载我的简历",
+      "contactDetails": {
+        "email": "JoshLoughran1@gmail.com",
+        "phone": "(513) 293-3465",
+        "linkedin": "linkedin.com/in/josh-loughran/",
+        "github": "github.com/4eyedRaven"
+      },
+      "resumeText": "以您喜欢的格式下载我的简历：",
+      "resumeOptions": [
+        {
+          "format": "简历 - PDF 格式",
+          "subText": "通用格式供预览",
+          "link": "https://drive.google.com/file/d/1I4pO1uFQ6UYX9kbSmwvnwLEDFhWv791F/view?usp=sharing"
+        },
+        {
+          "format": "简历 - DOCX 格式",
+          "subText": "可编辑格式，适用于MS Word",
+          "link": "https://docs.google.com/document/d/1LQh8thg99IcEKeRDE10bK-c3HePjEG1Y/edit?usp=sharing&ouid=109595031920595380639&rtpof=true&sd=true"
+        }
+      ]
+    },
+    "videoPlayer": {
+      "iframeTitle": "YouTube视频播放器"
+    },
+    "footer": {
+      "rights": "© {year} Josh Loughran. 保留所有权利。",
+      "social": {
+        "email": "电子邮件",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+      }
+    }
+  }

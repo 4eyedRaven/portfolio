@@ -39,11 +39,29 @@ export function LanguageToggle({ lang, setLang }: LanguageToggleProps) {
         <DropdownMenuItem onSelect={() => handleLanguageChange("es")}>
           Español
         </DropdownMenuItem>
+        <DropdownMenuItem onSelect={() => handleLanguageChange("fr")}>
+          Français
+        </DropdownMenuItem>
         <DropdownMenuItem onSelect={() => handleLanguageChange("it")}>
           Italiano
         </DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => handleLanguageChange("fr")}>
-          Français
+        <DropdownMenuItem onSelect={() => handleLanguageChange("pt")}>
+          Português
+        </DropdownMenuItem>
+        <DropdownMenuItem onSelect={() => handleLanguageChange("zh")}>
+          中文
+        </DropdownMenuItem>
+        <DropdownMenuItem onSelect={() => handleLanguageChange("ja")}>
+          日本語
+        </DropdownMenuItem>
+        <DropdownMenuItem onSelect={() => handleLanguageChange("ko")}>
+          한국어
+        </DropdownMenuItem>
+        <DropdownMenuItem onSelect={() => handleLanguageChange("hi")}>
+          हिंदी
+        </DropdownMenuItem>
+        <DropdownMenuItem onSelect={() => handleLanguageChange("ar")}>
+          العربية
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

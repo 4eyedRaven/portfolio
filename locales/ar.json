@@ -1,0 +1,234 @@
+{
+    "header": {
+      "title": "Josh Loughran",
+      "nav": {
+        "about": "حول",
+        "experience": "الخبرة",
+        "education": "التعليم",
+        "skills": "المهارات",
+        "projects": "المشاريع",
+        "contact": "اتصل"
+      }
+    },
+    "hero": {
+      "title": "خبير UX أول ومهندس برمجيات",
+      "subtitle": "دمج الذكاء الاصطناعي ونماذج اللغة والتصميم الذي يركز على المستخدم في حلول هندسية بديهية",
+      "badges": {
+        "ai": "الذكاء الاصطناعي والتعلم الآلي",
+        "ux": "تصميم UX",
+        "web": "تطوير الويب",
+        "software": "هندسة البرمجيات"
+      },
+      "buttons": {
+        "contact": "اتصل بي",
+        "experience": "عرض الخبرة"
+      },
+      "imageAlt": "Josh Loughran"
+    },
+    "contactInfo": {
+      "location": "Cincinnati, OH 45245",
+      "email": "JoshLoughran1@gmail.com",
+      "phone": "(513) 293-3465",
+      "linkedin": "linkedin.com/in/josh-loughran/"
+    },
+    "experience": {
+      "title": "الخبرة المهنية",
+      "positions": [
+        {
+          "title": "مصمم منتجات أول",
+          "company": "Siemens Digital Industries Software | Milford, OH",
+          "duration": "2018 – حتى الآن",
+          "bullets": [
+            "قيادة تصميم UX ودمج ميزات الذكاء الاصطناعي ونماذج اللغة في Siemens NX لتحسين التحليل التنبؤي وسير العمل الآلي وتفاعل المستخدم.",
+            "تطوير تطبيقات معتمدة على الوكلاء باستخدام مكتبة Transformers وواجهة OpenAI API لتعزيز إنتاجية مديري المنتجات وتبادل المعرفة في بحوث المستخدم.",
+            "تحديد متطلبات المنتج واستراتيجيات UX لتطبيقات الويب/السحابة والحلول البحرية والكهربائية والميكانيكية.",
+            "إنشاء نماذج تفاعلية، ونماذج أولية، ومواصفات وظيفية من تصاميم Figma لربط التصميم الذي يركز على المستخدم بعمليات التطوير بفعالية.",
+            "إدارة دورات تطوير المنتجات بأسلوب أجايل وتعزيز التعاون داخل الفريق للنشر والتحسين المستمر.",
+            "أتمتة استخراج النصوص ومراجعتها وفقًا للقواعد داخل Siemens NX باستخدام LLM، مما قلل من وقت المراجعة اليدوية بنسبة تزيد عن 30% وزاد من معدل اكتشاف الحوادث بنسبة تزيد عن 20%."
+          ],
+          "logoAlt": "Siemens logo"
+        },
+        {
+          "title": "مهندس تطبيقات",
+          "company": "Siemens Digital Industries Software | Milford, OH",
+          "duration": "2014 – 2018",
+          "bullets": [
+            "تنفيذ إجراءات الاختبار الآلي في Siemens NX Routing & Assemblies، Teamcenter وMentor Graphics Capital مما حسن بشكل كبير من موثوقية المنتج.",
+            "تحسين عمليات ضمان الجودة وإدارة الاتصال والمخاطر مع الأطراف المعنية بشكل استباقي."
+          ],
+          "logoAlt": "Siemens logo"
+        },
+        {
+          "title": "مهندس تصميم محركات",
+          "company": "Honda R&D | Marysville, OH",
+          "duration": "2013 – 2014",
+          "bullets": [
+            "تطوير مكونات نظام الوقود التي تلبي معايير عالية من الأمان والكفاءة والأداء.",
+            "التعاون عبر الأقسام لتحقيق نتائج هندسية قوية."
+          ],
+          "logoAlt": "Honda logo"
+        }
+      ]
+    },
+    "education": {
+      "title": "التعليم والشهادات",
+      "institutions": [
+        {
+          "degree": "بكالوريوس في العلوم، هندسة ميكانيكية",
+          "school": "University of Cincinnati | Cincinnati, OH",
+          "duration": "2008 – 2013",
+          "bullets": [
+            "تركيز على التصميم الميكانيكي، الطرق الحسابية وهندسة الأنظمة.",
+            "المشاركة في برنامج التدريب التعاوني لاكتساب خبرة عملية مع قادة الصناعة."
+          ],
+          "logoAlt": "University of Cincinnati logo"
+        },
+        {
+          "degree": "SAFe® 5 Practitioner",
+          "school": "Scaled Agile, Inc.",
+          "duration": "2021 – حتى الآن",
+          "bullets": [
+            "معتمد في تطبيق مبادئ وممارسات Lean-Agile على مستوى المؤسسات.",
+            "ذو خبرة في تخطيط وتنفيذ زيادات البرامج ضمن Agile Release Train."
+          ],
+          "logoAlt": "SAFe logo"
+        }
+      ]
+    },
+    "skills": {
+      "title": "المهارات التقنية",
+      "categories": {
+        "ai": {
+          "label": "الذكاء الاصطناعي والتعلم الآلي",
+          "skills": ["AWS Bedrock", "Azure OpenAI", "Transformers", "CrewAI", "Prompt Design"]
+        },
+        "web": {
+          "label": "تطوير الويب",
+          "skills": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Node.js"]
+        },
+        "programming": {
+          "label": "البرمجة",
+          "skills": ["Python", "C++", "MATLAB", "Visual Basic"]
+        },
+        "databases": {
+          "label": "قواعد البيانات",
+          "skills": ["SQL", "MongoDB", "Chroma", "OpenSearch", "FAISS"]
+        },
+        "cloud": {
+          "label": "السحابة وDevOps",
+          "skills": ["AWS S3", "Docker", "Git", "CI/CD"]
+        },
+        "cad": {
+          "label": "CAD والمحاكاة",
+          "skills": ["Siemens NX", "Solidworks", "ANSYS", "CATIA", "AutoCAD"]
+        },
+        "ux": {
+          "label": "أدوات UI/UX",
+          "skills": ["Figma", "Sketch", "Illustrator", "Lunacy"]
+        }
+      }
+    },
+    "projects": {
+      "title": "المشاريع والمساهمات",
+      "projectsList": [
+        {
+          "title": "تطبيق تجميع الطلاب",
+          "description": "تطبيق ويب مطور باستخدام React و Node.js يساعد المعلمين في إدارة الفصول الدراسية وتكوين مجموعات طلاب متوازنة.",
+          "category": "تطبيق ويب",
+          "buttonText": "عرض مباشر",
+          "imageAlt": "تطبيق تجميع الطلاب",
+          "imageUrl": "/student-grouping-app-thumbnail.jpg"
+        },
+        {
+          "title": "طائرة Hummel Ultracruiser",
+          "description": "مشروع شخصي لإنشاء طائرة Hummel Ultracruiser في ورشة العمل الخاصة بي، يعكس شغفي بابتكار الطيران والهندسة التطبيقية.",
+          "category": "مشروع الطيران الشخصي",
+          "buttonText": "تابع",
+          "imageAlt": "طائرة Hummel Ultracruiser",
+          "imageUrl": "/hummel-ultracruiser-thumbnail.jpg"
+        },
+        {
+          "title": "مساهمات Siemens NX",
+          "description": "مشاريع مهنية",
+          "subProjects": [
+            {
+              "title": "اختيار الوجوه والحواف المماثلة",
+              "description": "استخدام التعرف الهندسي في NX للعثور بسرعة على الوجوه أو الحواف ذات الخصائص المماثلة (مثل مستوية أو أسطوانية) وتجميعها لتوفير الوقت في مهام الاختيار المتكررة.",
+              "linkText": "اقرأ المزيد في مدونة NX Tips & Tricks",
+              "imageAlt": "اختيار الوجوه والحواف المماثلة",
+              "imageUrl": "/nx-select-similar-faces-thumbnail.png"
+            },
+            {
+              "title": "اختيار المكونات المماثلة",
+              "description": "استخدام أدوات الاختيار في NX لتجميع المكونات المماثلة تلقائيًا في التجميعات الكبيرة لتحرير فعال.",
+              "imageAlt": "اختيار المكونات المماثلة",
+              "videoId": "1ka_uD8LM80",
+              "thumbnailUrl": "https://img.youtube.com/vi/1ka_uD8LM80/hqdefault.jpg"
+            },
+            {
+              "title": "دردشة NX X Copilot",
+              "description": "تجربة دعم التصميم المعتمد على الذكاء الاصطناعي مع رؤى فورية ومساعدة سياقية مباشرة داخل NX.",
+              "imageAlt": "دردشة NX X Copilot",
+              "videoId": "lk5VmsjtOns",
+              "thumbnailUrl": "https://img.youtube.com/vi/lk5VmsjtOns/hqdefault.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    "volunteer": {
+      "title": "العمل التطوعي والقيادة",
+      "roles": [
+        {
+          "title": "سفير STEM",
+          "organization": "Siemens",
+          "description": "قيادة برامج وتقنيات التوعية STEM."
+        },
+        {
+          "title": "المؤسس المشارك، دروع الوجوه المطبوعة ثلاثية الأبعاد",
+          "organization": "COVID-19 Response",
+          "description": "إنتاج 5000 درع وجه خلال جائحة COVID-19."
+        },
+        {
+          "title": "مهندس",
+          "organization": "Engineers Without Borders",
+          "description": "تصميم أنظمة توزيع المياه لمجتمع في تنزانيا."
+        }
+      ]
+    },
+    "contact": {
+      "title": "اتصل",
+      "contactInfoTitle": "معلومات الاتصال",
+      "downloadResumeTitle": "تنزيل السيرة الذاتية",
+      "contactDetails": {
+        "email": "JoshLoughran1@gmail.com",
+        "phone": "(513) 293-3465",
+        "linkedin": "linkedin.com/in/josh-loughran/",
+        "github": "github.com/4eyedRaven"
+      },
+      "resumeText": "قم بتنزيل سيرتك الذاتية بالصيغة التي تفضلها:",
+      "resumeOptions": [
+        {
+          "format": "السيرة الذاتية - صيغة PDF",
+          "subText": "صيغة عامة للعرض",
+          "link": "https://drive.google.com/file/d/1I4pO1uFQ6UYX9kbSmwvnwLEDFhWv791F/view?usp=sharing"
+        },
+        {
+          "format": "السيرة الذاتية - صيغة DOCX",
+          "subText": "صيغة قابلة للتعديل لـ MS Word",
+          "link": "https://docs.google.com/document/d/1LQh8thg99IcEKeRDE10bK-c3HePjEG1Y/edit?usp=sharing&ouid=109595031920595380639&rtpof=true&sd=true"
+        }
+      ]
+    },
+    "videoPlayer": {
+      "iframeTitle": "مشغل فيديو YouTube"
+    },
+    "footer": {
+      "rights": "© {year} Josh Loughran. جميع الحقوق محفوظة.",
+      "social": {
+        "email": "البريد الإلكتروني",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+      }
+    }
+  }
