@@ -95,31 +95,34 @@ function VideoPlayer({
   );
 }
 
-// MobileNav now accepts modeToggle and languageToggle props so they can be rendered inside the menu.
-// Revised MobileNav in app/HomeClient.tsx
 
-function MobileNav({
-  locale,
-  modeToggle,
-  languageToggle,
-}: {
+interface MobileNavProps {
   locale: any;
   modeToggle: React.ReactNode;
   languageToggle: React.ReactNode;
-}) {
+}
+
+function MobileNav({ locale, modeToggle, languageToggle }: MobileNavProps) {
   const [open, setOpen] = useState(false);
   const navRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     function handlePointerDown(event: PointerEvent) {
-      // If the tap is inside a Radix dropdown content, ignore it.
+      // If the tap is within any language toggle element, don't close the menu.
+      if (
+        event.target instanceof Element &&
+        event.target.closest('.language-toggle')
+      ) {
+        return;
+      }
+      // If the tap is within a Radix dropdown content (rendered via portal), ignore it.
       if (
         event.target instanceof Element &&
         event.target.closest('[data-radix-dropdown-menu-content]')
       ) {
         return;
       }
-      // If the tap is outside the navRef, close the menu.
+      // If the tap is outside our navRef, close the menu.
       if (navRef.current && !navRef.current.contains(event.target as Node)) {
         setOpen(false);
       }
@@ -132,17 +135,15 @@ function MobileNav({
 
   return (
     <div ref={navRef}>
-      {/* The hamburger button */}
-      <Button variant="ghost" className="p-2" onClick={() => setOpen(!open)}>
+      {/* Hamburger button */}
+      <Button variant="ghost" className="p-2" onClick={() => setOpen((prev) => !prev)}>
         {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
       </Button>
 
       {open && (
-        // Use fixed + left-0 + right-0 to ensure full viewport width,
-        // ignoring any parent container constraints.
+        // Full viewport width dropdown menu
         <div className="fixed top-16 left-0 right-0 z-50 border-t border-b bg-background">
           <nav className="flex flex-col items-start p-4 gap-4">
-            {/* Navigation links */}
             <Link href="#about" onClick={() => setOpen(false)} className="hover:text-foreground/80">
               {locale.header.nav.about}
             </Link>
@@ -165,7 +166,7 @@ function MobileNav({
             {/* Divider */}
             <div className="w-full border-t border-border my-2"></div>
 
-            {/* Theme toggle & language toggle */}
+            {/* Toggles for theme and language */}
             <div className="flex items-center gap-4">
               {modeToggle}
               {languageToggle}
