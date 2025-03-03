@@ -111,21 +111,22 @@ function MobileNav({
   const navRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      // If the event target is inside the Radix dropdown content, ignore the click.
+    function handlePointerDown(event: PointerEvent) {
+      // If the tap is inside a Radix dropdown content, ignore it.
       if (
         event.target instanceof Element &&
         event.target.closest('[data-radix-dropdown-menu-content]')
       ) {
         return;
       }
+      // If the tap is outside the navRef, close the menu.
       if (navRef.current && !navRef.current.contains(event.target as Node)) {
         setOpen(false);
       }
     }
-    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("pointerdown", handlePointerDown);
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("pointerdown", handlePointerDown);
     };
   }, []);
 
