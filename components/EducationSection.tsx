@@ -18,7 +18,7 @@ export default function EducationSection({ locale }: EducationSectionProps) {
             <CardHeader>
               <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-2">
                 <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 relative flex-shrink-0 bg-white dark:bg-white rounded-md p-1">
+                <div className="w-12 h-12 flex items-center justify-center flex-shrink-0 bg-white dark:bg-white rounded-md p-1">
                     <Image
                       src={
                         inst.degree.includes("Bachelor") ||

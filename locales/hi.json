@@ -182,17 +182,22 @@
       {
         "title": "STEM एम्बेसडर",
         "organization": "Siemens",
-        "description": "STEM आउटरीच कार्यक्रमों और तकनीकों का प्रबंधन किया।"
+        "description": "STEM आउटरीच कार्यक्रमों और तकनीकों का प्रबंधन किया।",
+        "imageUrl": "https://i.imgur.com/7fQ9Brv.jpeg"
       },
       {
         "title": "सह-संस्थापक, 3D प्रिंटेड फेस शील्ड",
         "organization": "COVID-19 Response",
-        "description": "COVID-19 महामारी के दौरान 5,000 फेस शील्ड का उत्पादन किया।"
+        "description": "COVID-19 महामारी के दौरान 5,000 फेस शील्ड का उत्पादन किया।",
+        "imageUrl": "https://i.imgur.com/BlrbCbx.jpeg",
+        "link": "https://www.gofundme.com/f/3d-printed-face-shields-for-cincy",
+        "linkText": "GoFundMe अभियान देखें"
       },
       {
         "title": "इंजीनियर",
         "organization": "Engineers Without Borders",
-        "description": "एक तंज़ानियाई समुदाय के लिए जल वितरण प्रणाली डिजाइन की।"
+        "description": "एक तंज़ानियाई समुदाय के लिए जल वितरण प्रणाली डिजाइन की।",
+        "imageUrl": "/ewb-logo.svg"
       }
     ]
   },

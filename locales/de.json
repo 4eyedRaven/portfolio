@@ -182,17 +182,22 @@
       {
         "title": "STEM-Botschafter",
         "organization": "Siemens",
-        "description": "Leitete STEM-Engagement-Programme und Technologien."
+        "description": "Leitete STEM-Engagement-Programme und Technologien.",
+        "imageUrl": "https://i.imgur.com/7fQ9Brv.jpeg"
       },
       {
         "title": "Mitgründer, 3D-gedruckte Gesichtsschutzschilde",
         "organization": "COVID-19 Response",
-        "description": "Produzierte während der COVID-19-Pandemie 5.000 Gesichtsschutzschilde."
+        "description": "Produzierte während der COVID-19-Pandemie 5.000 Gesichtsschutzschilde.",
+        "imageUrl": "https://i.imgur.com/BlrbCbx.jpeg",
+        "link": "https://www.gofundme.com/f/3d-printed-face-shields-for-cincy",
+        "linkText": "GoFundMe-Kampagne ansehen"
       },
       {
         "title": "Ingenieur",
         "organization": "Engineers Without Borders",
-        "description": "Entwarf Wasserversorgungssysteme für eine tansanische Gemeinde."
+        "description": "Entwarf Wasserversorgungssysteme für eine tansanische Gemeinde.",
+        "imageUrl": "/ewb-logo.svg"
       }
     ]
   },

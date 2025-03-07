@@ -182,17 +182,22 @@
       {
         "title": "STEM 대사",
         "organization": "Siemens",
-        "description": "STEM 확산 프로그램과 기술을 이끌었음."
+        "description": "STEM 확산 프로그램과 기술을 이끌었음.",
+        "imageUrl": "https://i.imgur.com/7fQ9Brv.jpeg"
       },
       {
         "title": "공동 창립자, 3D 프린트 페이스 쉴드",
         "organization": "COVID-19 대응",
-        "description": "COVID-19 팬데믹 기간 동안 5,000개의 페이스 쉴드를 제작함."
+        "description": "COVID-19 팬데믹 기간 동안 5,000개의 페이스 쉴드를 제작함.",
+        "imageUrl": "https://i.imgur.com/BlrbCbx.jpeg",
+        "link": "https://www.gofundme.com/f/3d-printed-face-shields-for-cincy",
+        "linkText": "GoFundMe 캠페인 보기"
       },
       {
         "title": "엔지니어",
         "organization": "Engineers Without Borders",
-        "description": "탄자니아 커뮤니티를 위한 급수 시스템을 설계함."
+        "description": "탄자니아 커뮤니티를 위한 급수 시스템을 설계함.",
+        "imageUrl": "/ewb-logo.svg"
       }
     ]
   },

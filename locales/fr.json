@@ -182,17 +182,22 @@
       {
         "title": "Ambassadeur STEM",
         "organization": "Siemens",
-        "description": "A géré des programmes de sensibilisation STEM et des technologies."
+        "description": "A géré des programmes de sensibilisation STEM et des technologies.",
+        "imageUrl": "https://i.imgur.com/7fQ9Brv.jpeg"
       },
       {
         "title": "Co-fondateur, Écrans Faciaux Imprimés en 3D",
         "organization": "Réponse COVID-19",
-        "description": "A produit 5 000 écrans faciaux pendant la pandémie de COVID-19."
+        "description": "A produit 5 000 écrans faciaux pendant la pandémie de COVID-19.",
+        "imageUrl": "https://i.imgur.com/BlrbCbx.jpeg",
+        "link": "https://www.gofundme.com/f/3d-printed-face-shields-for-cincy",
+        "linkText": "Voir la Campagne GoFundMe"
       },
       {
         "title": "Ingénieur",
         "organization": "Engineers Without Borders",
-        "description": "A conçu des systèmes de distribution d'eau pour une communauté en Tanzanie."
+        "description": "A conçu des systèmes de distribution d'eau pour une communauté en Tanzanie.",
+        "imageUrl": "/ewb-logo.svg"
       }
     ]
   },

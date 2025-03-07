@@ -182,17 +182,22 @@
       {
         "title": "STEMアンバサダー",
         "organization": "Siemens",
-        "description": "STEM普及プログラムと技術の指導を担当"
+        "description": "STEM普及プログラムと技術の指導を担当",
+        "imageUrl": "https://i.imgur.com/7fQ9Brv.jpeg"
       },
       {
         "title": "共同創業者、3Dプリントフェイスシールド",
         "organization": "COVID-19 Response",
-        "description": "COVID-19パンデミック中に5000個のフェイスシールドを製作"
+        "description": "COVID-19パンデミック中に5000個のフェイスシールドを製作",
+        "imageUrl": "https://i.imgur.com/BlrbCbx.jpeg",
+        "link": "https://www.gofundme.com/f/3d-printed-face-shields-for-cincy",
+        "linkText": "GoFundMeキャンペーンを見る"
       },
       {
         "title": "エンジニア",
         "organization": "Engineers Without Borders",
-        "description": "タンザニアのコミュニティ向けに給水システムを設計"
+        "description": "タンザニアのコミュニティ向けに給水システムを設計",
+        "imageUrl": "/ewb-logo.svg"
       }
     ]
   },
