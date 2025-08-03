@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { ThemeProvider } from "@/components/ThemeProvider";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import ExperienceSection from "@/components/ExperienceSection";
@@ -18,20 +17,18 @@ export default function HomeClient({ initialLang }: { initialLang: string }) {
   const locale = getLocale(lang);
 
   return (
-    <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-      <div className="min-h-screen bg-background">
-        <Header locale={locale} lang={lang} setLang={setLang} />
-        <main className="container py-8 md:py-10">
-          <HeroSection locale={locale} />
-          <ExperienceSection locale={locale} />
-          <EducationSection locale={locale} />
-          <SkillsSection locale={locale} />
-          <ProjectsSection locale={locale} />
-          <VolunteerSection locale={locale} />
-          <ContactSection locale={locale} />
-        </main>
-        <Footer locale={locale} />
-      </div>
-    </ThemeProvider>
+    <div className="min-h-screen bg-background">
+      <Header locale={locale} lang={lang} setLang={setLang} />
+      <main className="container py-8 md:py-10">
+        <HeroSection locale={locale} />
+        <ExperienceSection locale={locale} />
+        <EducationSection locale={locale} />
+        <SkillsSection locale={locale} />
+        <ProjectsSection locale={locale} />
+        <VolunteerSection locale={locale} />
+        <ContactSection locale={locale} />
+      </main>
+      <Footer locale={locale} />
+    </div>
   );
 }

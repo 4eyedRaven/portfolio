@@ -28,3 +28,6 @@ next-env.d.ts
 
 package-lock.json
 la.txt
+
+# claude
+CLAUDE.md
