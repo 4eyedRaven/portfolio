@@ -107,7 +107,7 @@
     "categories": {
       "ai": {
         "label": "الذكاء الاصطناعي والتعلم الآلي",
-        "skills": ["AWS Bedrock", "Azure OpenAI", "Transformers", "CrewAI", "Prompt Design"]
+        "skills": ["AWS Bedrock", "Azure OpenAI", "Claude Code", "Transformers", "CrewAI", "Prompt Design"]
       },
       "web": {
         "label": "تطوير الويب",
