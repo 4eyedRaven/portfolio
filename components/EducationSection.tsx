@@ -10,7 +10,7 @@ interface EducationSectionProps {
 
 export default function EducationSection({ locale }: EducationSectionProps) {
   return (
-    <section id="education" className="py-12 md:py-16 border-t">
+    <div id="education">
       <h2 className="text-3xl font-bold mb-8">{locale.education.title}</h2>
       <div className="space-y-8">
         {locale.education.institutions.map((inst: any, idx: number) => (
@@ -53,6 +53,6 @@ export default function EducationSection({ locale }: EducationSectionProps) {
           </Card>
         ))}
       </div>
-    </section>
+    </div>
   );
 }

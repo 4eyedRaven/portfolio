@@ -3,19 +3,12 @@
     "title": "Josh Loughran",
     "nav": {
       "about": "关于",
-      "background": "背景",
-      "capabilities": "能力",
-      "volunteer": "志愿工作",
+      "experience": "经历",
+      "education": "教育",
+      "skills": "技能",
+      "projects": "项目",
       "contact": "联系"
     }
-  },
-  "background": {
-    "title": "职业背景",
-    "subtitle": "塑造我在UX设计和软件工程方面专业知识的经验和教育"
-  },
-  "capabilities": {
-    "title": "技能与项目",
-    "subtitle": "展示我开发能力的技术能力和实际应用"
   },
   "hero": {
     "title": "高级UX专家 & 软件工程师",
@@ -145,6 +138,14 @@
         "buttonText": "访问 Random Roster",
         "imageAlt": "Random Roster",
         "imageUrl": "/student-grouping-app-thumbnail.jpg"
+      },
+      {
+        "title": "Hummel Ultracruiser 飞机",
+        "description": "在个人工作室中积极构建Hummel Ultracruiser 飞机，探索航空创新与实践工程的热情。",
+        "category": "个人航空项目",
+        "buttonText": "关注我",
+        "imageAlt": "Hummel Ultracruiser 飞机",
+        "imageUrl": "/hummel-ultracruiser-thumbnail.jpg"
       },
       {
         "title": "Siemens NX 贡献",

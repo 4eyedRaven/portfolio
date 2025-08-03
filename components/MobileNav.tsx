@@ -46,17 +46,14 @@ export default function MobileNav({ locale, modeToggle, languageToggle }: Mobile
             <Link href="#about" onClick={() => setOpen(false)} className="hover:text-foreground/80">
               {locale.header.nav.about}
             </Link>
-            <Link href="#experience" onClick={() => setOpen(false)} className="hover:text-foreground/80">
-              {locale.header.nav.experience}
+            <Link href="#background" onClick={() => setOpen(false)} className="hover:text-foreground/80">
+              {locale.header.nav.background}
             </Link>
-            <Link href="#education" onClick={() => setOpen(false)} className="hover:text-foreground/80">
-              {locale.header.nav.education}
+            <Link href="#capabilities" onClick={() => setOpen(false)} className="hover:text-foreground/80">
+              {locale.header.nav.capabilities}
             </Link>
-            <Link href="#skills" onClick={() => setOpen(false)} className="hover:text-foreground/80">
-              {locale.header.nav.skills}
-            </Link>
-            <Link href="#projects" onClick={() => setOpen(false)} className="hover:text-foreground/80">
-              {locale.header.nav.projects}
+            <Link href="#volunteer" onClick={() => setOpen(false)} className="hover:text-foreground/80">
+              {locale.header.nav.volunteer}
             </Link>
             <Link href="#contact" onClick={() => setOpen(false)} className="hover:text-foreground/80">
               {locale.header.nav.contact}

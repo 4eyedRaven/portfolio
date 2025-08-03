@@ -3,12 +3,19 @@
     "title": "Josh Loughran",
     "nav": {
       "about": "概要",
-      "experience": "経歴",
-      "education": "教育",
-      "skills": "スキル",
-      "projects": "プロジェクト",
+      "background": "経歴",
+      "capabilities": "能力",
+      "volunteer": "ボランティア",
       "contact": "連絡先"
     }
+  },
+  "background": {
+    "title": "职業経歴",
+    "subtitle": "UXデザインとソフトウェアエンジニアリングにおける専門知識を形成した経験と教育"
+  },
+  "capabilities": {
+    "title": "スキルとプロジェクト",
+    "subtitle": "開発能力を実証する技術能力と実用的なアプリケーション"
   },
   "hero": {
     "title": "シニアUXエキスパート＆ソフトウェアエンジニア",

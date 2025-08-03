@@ -12,7 +12,7 @@ interface ProjectsSectionProps {
 
 export default function ProjectsSection({ locale }: ProjectsSectionProps) {
   return (
-    <section id="projects" className="py-12 md:py-16 border-t">
+    <div id="projects">
       <h2 className="text-3xl font-bold mb-8">{locale.projects.title}</h2>
       <div className="grid md:grid-cols-2 gap-8">
         {locale.projects.projectsList.map((project: any, idx: number) => {
@@ -103,6 +103,6 @@ export default function ProjectsSection({ locale }: ProjectsSectionProps) {
           }
         })}
       </div>
-    </section>
+    </div>
   );
 }

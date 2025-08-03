@@ -10,7 +10,7 @@ interface ContactSectionProps {
 
 export default function ContactSection({ locale }: ContactSectionProps) {
   return (
-    <section id="contact" className="py-12 md:py-16 border-t">
+    <section id="contact">
       <h2 className="text-3xl font-bold mb-8">{locale.contact.title}</h2>
       <div className="grid md:grid-cols-2 gap-8">
         <Card>

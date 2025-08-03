@@ -3,12 +3,19 @@
     "title": "Josh Loughran",
     "nav": {
       "about": "소개",
-      "experience": "경험",
-      "education": "교육",
-      "skills": "기술",
-      "projects": "프로젝트",
+      "background": "배경",
+      "capabilities": "역량",
+      "volunteer": "자원봉사",
       "contact": "연락처"
     }
+  },
+  "background": {
+    "title": "전문 배경",
+    "subtitle": "UX 디자인과 소프트웨어 엔지니어링 전문성을 형성한 경험과 교육"
+  },
+  "capabilities": {
+    "title": "기술 및 프로젝트",
+    "subtitle": "개발 역량을 입증하는 기술적 능력과 실제 응용 사례"
   },
   "hero": {
     "title": "수석 UX 전문가 및 소프트웨어 엔지니어",

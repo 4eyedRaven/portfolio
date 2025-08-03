@@ -3,12 +3,19 @@
     "title": "Josh Loughran",
     "nav": {
       "about": "À propos",
-      "experience": "Expérience",
-      "education": "Éducation",
-      "skills": "Compétences",
-      "projects": "Projets",
+      "background": "Parcours",
+      "capabilities": "Compétences",
+      "volunteer": "Bénévolat",
       "contact": "Contact"
     }
+  },
+  "background": {
+    "title": "Parcours Professionnel",
+    "subtitle": "Expérience et formation qui ont forgé mon expertise en design UX et ingénierie logicielle"
+  },
+  "capabilities": {
+    "title": "Compétences et Projets",
+    "subtitle": "Capacités techniques et applications concrètes démontrant mes compétences en développement"
   },
   "hero": {
     "title": "Concepteur Produit Senior & Ingénieur Logiciel",

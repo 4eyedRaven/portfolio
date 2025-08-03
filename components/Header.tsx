@@ -20,17 +20,14 @@ export default function Header({ locale, lang, setLang }: HeaderProps) {
           <Link href="#about" className="transition-colors hover:text-foreground/80">
             {locale.header.nav.about}
           </Link>
-          <Link href="#experience" className="transition-colors hover:text-foreground/80">
-            {locale.header.nav.experience}
+          <Link href="#background" className="transition-colors hover:text-foreground/80">
+            {locale.header.nav.background}
           </Link>
-          <Link href="#education" className="transition-colors hover:text-foreground/80">
-            {locale.header.nav.education}
+          <Link href="#capabilities" className="transition-colors hover:text-foreground/80">
+            {locale.header.nav.capabilities}
           </Link>
-          <Link href="#skills" className="transition-colors hover:text-foreground/80">
-            {locale.header.nav.skills}
-          </Link>
-          <Link href="#projects" className="transition-colors hover:text-foreground/80">
-            {locale.header.nav.projects}
+          <Link href="#volunteer" className="transition-colors hover:text-foreground/80">
+            {locale.header.nav.volunteer}
           </Link>
           <Link href="#contact" className="transition-colors hover:text-foreground/80">
             {locale.header.nav.contact}

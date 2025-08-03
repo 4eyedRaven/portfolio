@@ -11,7 +11,7 @@ interface VolunteerSectionProps {
 
 export default function VolunteerSection({ locale }: VolunteerSectionProps) {
   return (
-    <section className="py-12 md:py-16 border-t">
+    <section id="volunteer">
       <h2 className="text-3xl font-bold mb-8">{locale.volunteer.title}</h2>
       <div className="grid md:grid-cols-3 gap-8">
         {locale.volunteer.roles.map((role: any, idx: number) => (

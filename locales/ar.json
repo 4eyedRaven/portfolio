@@ -3,12 +3,19 @@
     "title": "Josh Loughran",
     "nav": {
       "about": "حول",
-      "experience": "الخبرة",
-      "education": "التعليم",
-      "skills": "المهارات",
-      "projects": "المشاريع",
+      "background": "الخلفية",
+      "capabilities": "القدرات",
+      "volunteer": "التطوع",
       "contact": "اتصل"
     }
+  },
+  "background": {
+    "title": "الخلفية المهنية",
+    "subtitle": "الخبرة والتعليم اللذان شكّلا خبرتي في تصميم UX وهندسة البرمجيات"
+  },
+  "capabilities": {
+    "title": "المهارات والمشاريع",
+    "subtitle": "القدرات التقنية والتطبيقات العملية التي تُظهر قدراتي في التطوير"
   },
   "hero": {
     "title": "خبير UX أول ومهندس برمجيات",

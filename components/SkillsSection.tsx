@@ -10,7 +10,7 @@ interface SkillsSectionProps {
 
 export default function SkillsSection({ locale }: SkillsSectionProps) {
   return (
-    <section id="skills" className="py-12 md:py-16 border-t">
+    <div id="skills">
       <h2 className="text-3xl font-bold mb-8">{locale.skills.title}</h2>
       <div className="hidden lg:block">
         <Tabs defaultValue="ai" className="w-full">
@@ -48,6 +48,6 @@ export default function SkillsSection({ locale }: SkillsSectionProps) {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 }

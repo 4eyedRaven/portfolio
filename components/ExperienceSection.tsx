@@ -10,7 +10,7 @@ interface ExperienceSectionProps {
 
 export default function ExperienceSection({ locale }: ExperienceSectionProps) {
   return (
-    <section id="experience" className="py-12 md:py-16">
+    <div id="experience">
       <h2 className="text-3xl font-bold mb-8">{locale.experience.title}</h2>
       <div className="space-y-8">
         {locale.experience.positions.map((position: any, idx: number) => (
@@ -51,6 +51,6 @@ export default function ExperienceSection({ locale }: ExperienceSectionProps) {
           </Card>
         ))}
       </div>
-    </section>
+    </div>
   );
 }
