@@ -140,14 +140,6 @@
         "imageUrl": "/student-grouping-app-thumbnail.jpg"
       },
       {
-        "title": "Hummel Ultracruiser विमान",
-        "description": "अपने घरेलू वर्कशॉप में Hummel Ultracruiser विमान का निर्माण करते हुए, एयरोस्पेस नवाचार और व्यावहारिक इंजीनियरिंग के प्रति अपनी रुचि को उजागर करता है।",
-        "category": "व्यक्तिगत एयरोस्पेस परियोजना",
-        "buttonText": "अनुसरण करें",
-        "imageAlt": "Hummel Ultracruiser विमान",
-        "imageUrl": "/hummel-ultracruiser-thumbnail.jpg"
-      },
-      {
         "title": "Siemens NX योगदान",
         "description": "पेशेवर परियोजनाएँ",
         "subProjects": [

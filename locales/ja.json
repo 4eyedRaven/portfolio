@@ -140,14 +140,6 @@
         "imageUrl": "/student-grouping-app-thumbnail.jpg"
       },
       {
-        "title": "Hummel Ultracruiser 飛行機",
-        "description": "自宅のワークショップでHummel Ultracruiser 飛行機の製作に取り組み、航空革新と実践的な工学への情熱を追求している。",
-        "category": "個人航空プロジェクト",
-        "buttonText": "フォローする",
-        "imageAlt": "Hummel Ultracruiser 飛行機",
-        "imageUrl": "/hummel-ultracruiser-thumbnail.jpg"
-      },
-      {
         "title": "Siemens NXへの貢献",
         "description": "プロフェッショナルプロジェクト",
         "subProjects": [

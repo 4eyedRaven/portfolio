@@ -140,14 +140,6 @@
         "imageUrl": "/student-grouping-app-thumbnail.jpg"
       },
       {
-        "title": "Hummel Ultracruiser 飞机",
-        "description": "在个人工作室中积极构建Hummel Ultracruiser 飞机，探索航空创新与实践工程的热情。",
-        "category": "个人航空项目",
-        "buttonText": "关注我",
-        "imageAlt": "Hummel Ultracruiser 飞机",
-        "imageUrl": "/hummel-ultracruiser-thumbnail.jpg"
-      },
-      {
         "title": "Siemens NX 贡献",
         "description": "专业项目",
         "subProjects": [

@@ -140,14 +140,6 @@
         "imageUrl": "/student-grouping-app-thumbnail.jpg"
       },
       {
-        "title": "Hummel Ultracruiser Aircraft",
-        "description": "Aktiv im Aufbau eines Hummel Ultracruiser Flugzeugs in meiner Heimwerkstatt, wobei ich meiner Leidenschaft für Luftfahrtinnovation und praxisnahes Ingenieurwesen nachgehe.",
-        "category": "Persönliches Luftfahrtprojekt",
-        "buttonText": "Folge mir",
-        "imageAlt": "Hummel Ultracruiser Aircraft",
-        "imageUrl": "/hummel-ultracruiser-thumbnail.jpg"
-      },
-      {
         "title": "Siemens NX Contributions",
         "description": "Berufliche Projekte",
         "subProjects": [

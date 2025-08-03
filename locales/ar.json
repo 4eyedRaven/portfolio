@@ -140,14 +140,6 @@
         "imageUrl": "/student-grouping-app-thumbnail.jpg"
       },
       {
-        "title": "طائرة Hummel Ultracruiser",
-        "description": "مشروع شخصي لإنشاء طائرة Hummel Ultracruiser في ورشة العمل الخاصة بي، يعكس شغفي بابتكار الطيران والهندسة التطبيقية.",
-        "category": "مشروع الطيران الشخصي",
-        "buttonText": "تابع",
-        "imageAlt": "طائرة Hummel Ultracruiser",
-        "imageUrl": "/hummel-ultracruiser-thumbnail.jpg"
-      },
-      {
         "title": "مساهمات Siemens NX",
         "description": "مشاريع مهنية",
         "subProjects": [
