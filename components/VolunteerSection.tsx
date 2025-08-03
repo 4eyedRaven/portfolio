@@ -11,8 +11,13 @@ interface VolunteerSectionProps {
 
 export default function VolunteerSection({ locale }: VolunteerSectionProps) {
   return (
-    <section id="volunteer">
-      <h2 className="text-3xl font-bold mb-8">{locale.volunteer.title}</h2>
+    <div id="volunteer">
+      <div className="text-center mb-16">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">{locale.volunteer.title}</h2>
+        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          Community involvement and leadership roles that demonstrate my commitment to making a positive impact
+        </p>
+      </div>
       <div className="grid md:grid-cols-3 gap-8">
         {locale.volunteer.roles.map((role: any, idx: number) => (
           <Card key={idx} className="overflow-hidden flex flex-col">
@@ -49,6 +54,6 @@ export default function VolunteerSection({ locale }: VolunteerSectionProps) {
           </Card>
         ))}
       </div>
-    </section>
+    </div>
   );
 }

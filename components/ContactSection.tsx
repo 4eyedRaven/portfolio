@@ -10,9 +10,14 @@ interface ContactSectionProps {
 
 export default function ContactSection({ locale }: ContactSectionProps) {
   return (
-    <section id="contact">
-      <h2 className="text-3xl font-bold mb-8">{locale.contact.title}</h2>
-      <div className="grid md:grid-cols-2 gap-8">
+    <div id="contact">
+      <div className="text-center mb-16">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">{locale.contact.title}</h2>
+        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          Ready to collaborate? Let's discuss how we can work together to create exceptional digital experiences
+        </p>
+      </div>
+      <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
         <Card>
           <CardHeader>
             <CardTitle>{locale.contact.contactInfoTitle}</CardTitle>
@@ -68,6 +73,6 @@ export default function ContactSection({ locale }: ContactSectionProps) {
           </CardContent>
         </Card>
       </div>
-    </section>
+    </div>
   );
 }

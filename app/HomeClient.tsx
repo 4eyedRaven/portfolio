@@ -17,20 +17,32 @@ export default function HomeClient({ initialLang }: { initialLang: string }) {
   return (
     <div className="min-h-screen bg-background">
       <Header locale={locale} lang={lang} setLang={setLang} />
-      <main>
-        <div className="container max-w-6xl mx-auto py-8 md:py-12">
-          <HeroSection locale={locale} />
-        </div>
-        <BackgroundSection locale={locale} />
-        <CapabilitiesSection locale={locale} />
-        <div className="container max-w-4xl mx-auto py-16 md:py-24">
-          <VolunteerSection locale={locale} />
-        </div>
-        <div className="bg-muted/20 py-16 md:py-24">
-          <div className="container max-w-4xl mx-auto">
+      <main className="space-y-0">
+        <section className="py-12 md:py-20">
+          <div className="container max-w-6xl mx-auto">
+            <HeroSection locale={locale} />
+          </div>
+        </section>
+        
+        <section className="bg-muted/30 py-16 md:py-24">
+          <BackgroundSection locale={locale} />
+        </section>
+        
+        <section className="py-16 md:py-24">
+          <CapabilitiesSection locale={locale} />
+        </section>
+        
+        <section className="bg-muted/20 py-16 md:py-24">
+          <div className="container max-w-6xl mx-auto">
+            <VolunteerSection locale={locale} />
+          </div>
+        </section>
+        
+        <section className="py-16 md:py-24 border-t border-border/40">
+          <div className="container max-w-6xl mx-auto">
             <ContactSection locale={locale} />
           </div>
-        </div>
+        </section>
       </main>
       <Footer locale={locale} />
     </div>
